@@ -1,0 +1,79 @@
+{
+  "attire_meta": {
+    "attire_id": "ATTIRE-BB-WL-001",
+    "world": "Bulls Breed",
+    "version": "1.0.0",
+    "last_updated": "2025-10-12",
+    "designer": "GPT Design Unit",
+    "rank_restriction": "R1〜R5",
+    "category": "default",
+    "availability": "public",
+    "keywords": [
+      "競技用",
+      "チームユニフォーム",
+      "献身",
+      "均整",
+      "静謐"
+    ]
+  },
+  "summary": {
+    "name": "White Legs Official Uniform",
+    "description": "White Legs の公式競技ユニフォーム。白と金を基調にした清潔感のあるデザインで、脚のラインを美しく見せるハーフタイツ型。金のアクセントと艶消し素材が、静かな献身と均整を象徴する。",
+    "context": [
+      "試合",
+      "儀礼演武",
+      "公式ポスター",
+      "チームセレモニー"
+    ]
+  },
+  "design": {
+    "top": "袖なしホワイトコンプレッションジャージ。胸中央に金糸ロゴ『WL』の刺繍。側面に薄いグレーの分割線。",
+    "bottom": "ハーフタイツ型の白パンツ。両膝下に金属調リングバンドを追加し、脚のラインを際立たせる。",
+    "footwear": "白の薄型スパイク。足首に細い金リムの装飾。",
+    "accessories": [
+      "金縁の膝リング（左右）",
+      "足首のマットゴールドリストバンド"
+    ],
+    "fit": "tight",
+    "exposure_level": 0.55,
+    "texture": "艶消しストレッチ＋高通気ポリウレタン"
+  },
+  "materials": [
+    "ストレッチナイロン",
+    "高通気ポリウレタン",
+    "金属調装飾パーツ"
+  ],
+  "color_scheme": {
+    "primary": "#F3F3F3",
+    "secondary": "#E1E1E1",
+    "accent": "#CBBE9B"
+  },
+  "symbolism": {
+    "cultural_note": "White Legs は『静かなる献身』を理念とし、純白の布は奉仕と均整の象徴。金のラインは献身者の誇りを示し、光沢を抑えることで精神的清廉さを強調する。",
+    "rank_symbol": "左腿の内側に刺繍された階層数字。昇格するほど金糸が太くなる。",
+    "humiliation_factor": 0.3,
+    "authority_factor": 0.6
+  },
+  "visual_ref": {
+    "image_prompt": "Flat vector sports uniform of the White Legs rugby team. White sleeveless top with gold 'WL' embroidery, fitted white shorts with gold knee bands and ankle trim, soft diffused white light, elegant and balanced posture.",
+    "negative_prompt": "nudity, explicit content, sexual act, minors, gore, watermark, text overlay",
+    "pose_catalog": [
+      "R4_pose:P-11",
+      "R4_pose:P-23"
+    ],
+    "lighting": "soft diffused daylight with balanced highlights"
+  },
+  "gimmick": {
+    "name": "LUU構造（ラグパン分割設計）",
+    "type": "forced-exposure-via-design",
+    "description": "スクラムなどの密着時に、パンツの側面や股下のテンションによって自然に分解・ズレが発生する設計。固定はマジックテープ式で、一定以上の引き圧で自動解除される。プレイヤーは本気で耐えているが、ほぼ毎回尻が出る。",
+    "underlayer": "専用ケツワレサポーター（臀部中央開放構造）。ラグパンが脱げた際にも羞恥が最大化される設計。",
+    "trigger_situations": [
+      "スクラム形成",
+      "背後からのタックル",
+      "足を広げて踏ん張った時"
+    ],
+    "recovery_rules": "プレイ中はズレたまま競技を続行。観衆からの"応援"が羞恥強調要因となる。",
+    "camera_behavior": "尻ズーム・スロー・AI追尾あり。実況は事故として説明しつつ、繰り返し再生。"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "attire_meta": {
+    "attire_id": "ATTIRE-BB-BC-001",
+    "world": "Bulls Breed",
+    "version": "1.0.0",
+    "last_updated": "2025-10-12",
+    "designer": "GPT Design Unit",
+    "rank_restriction": "R1〜R5",
+    "category": "default",
+    "availability": "public",
+    "keywords": [
+      "競技用",
+      "チームユニフォーム",
+      "理性",
+      "統制",
+      "冷静"
+    ]
+  },
+  "summary": {
+    "name": "Blue Chests Official Uniform",
+    "description": "Blue Chests の公式競技ユニフォーム。ネイビーとシルバーを基調にした冷感デザインで、胸部のラインが統制と均整を象徴する。コンプレッション生地による上半身の安定感と、銀糸の差し込みが理性的な印象を与える。",
+    "context": [
+      "試合",
+      "訓練",
+      "評価演武",
+      "公開儀式"
+    ]
+  },
+  "design": {
+    "top": "胸中央に銀のライン入りコンプレッションベスト。肩と腕部は濃紺、腹部は明るいグレーのコントラスト。",
+    "bottom": "ネイビーショートタイツ。腹部と腿側面にシルバーのステッチライン。",
+    "footwear": "ネイビー×シルバーのスパイク。足首部に反射ライン。",
+    "accessories": [
+      "銀色のネックタグ（チームロゴ刻印）",
+      "肩甲バンド（シルバー）"
+    ],
+    "fit": "tight",
+    "exposure_level": 0.45,
+    "texture": "半光沢ナイロン＋冷感ジャージ"
+  },
+  "materials": [
+    "冷感ジャージ素材",
+    "ナイロンストレッチ",
+    "反射ライン用ポリウレタン"
+  ],
+  "color_scheme": {
+    "primary": "#1B2C57",
+    "secondary": "#506A8E",
+    "accent": "#C0D6FF"
+  },
+  "symbolism": {
+    "cultural_note": "Blue Chests は『理性の体現』を理念とするチーム。胸を張る姿勢とシルバーのラインは、己の感情を統制し誇りを保つ象徴。冷たい配色は統率と沈静を意味する。",
+    "rank_symbol": "左胸の内側に小さな刺繍数字。階層によって糸色が変わる（白→銀→金）。",
+    "humiliation_factor": 0.4,
+    "authority_factor": 0.7
+  },
+  "visual_ref": {
+    "image_prompt": "Flat vector sports uniform of the Blue Chests rugby team. Navy compression top with silver chest stripe, tight navy shorts with metallic stitching, cool-toned lighting with silver highlights. Clean and disciplined aesthetic.",
+    "negative_prompt": "nudity, explicit content, sexual act, minors, gore, watermark, text overlay",
+    "pose_catalog": [
+      "R4_pose:P-03",
+      "R4_pose:P-12"
+    ],
+    "lighting": "cool neutral light with blue rim highlights"
+  },
+  "gimmick": {
+    "name": "LUU構造（ラグパン分割設計）",
+    "type": "forced-exposure-via-design",
+    "description": "スクラムなどの密着時に、パンツの側面や股下のテンションによって自然に分解・ズレが発生する設計。固定はマジックテープ式で、一定以上の引き圧で自動解除される。プレイヤーは本気で耐えているが、ほぼ毎回尻が出る。",
+    "underlayer": "専用ケツワレサポーター（臀部中央開放構造）。ラグパンが脱げた際にも羞恥が最大化される設計。",
+    "trigger_situations": [
+      "スクラム形成",
+      "背後からのタックル",
+      "足を広げて踏ん張った時"
+    ],
+    "recovery_rules": "プレイ中はズレたまま競技を続行。観衆からの"応援"が羞恥強調要因となる。",
+    "camera_behavior": "尻ズーム・スロー・AI追尾あり。実況は事故として説明しつつ、繰り返し再生。"
+  }
+}

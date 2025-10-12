@@ -1,0 +1,157 @@
+{
+  "project": "Bulls Order System Unified Structure",
+  "version": "v4.0",
+  "description": "Bulls OrderおよびBulls Breed League全体の統合世界設定データ",
+  "structure": {
+    "organization": {
+      "name": "Bulls Order",
+      "type": "私設奉仕競技機関",
+      "concept": "秩序・羞恥・支配を軸に、肉体奉仕を儀礼化する閉鎖的制度",
+      "rpi_system": {
+        "name": "Ritual Performance Index (RPI)",
+        "function": "奉仕姿勢・忠誠・羞恥耐性・統率貢献を数値化",
+        "update_cycle": "週次（月曜朝に発表）",
+        "penalty": "規律違反は即R5降格"
+      },
+      "ranks": {
+        "R1": "王（柱）",
+        "R2": "統率者",
+        "R3": "中継者",
+        "R4": "贖者（Breed所属）",
+        "R5": "スレイブ（沈黙奉仕層）"
+      }
+    },
+    "facilities": {
+      "main_arena": "第一奉仕広間",
+      "evaluation_tower": "RPI集計・映像発表施設",
+      "training_room": "奉仕姿勢・羞恥訓練用鏡張りルーム",
+      "punishment_area": "剥奪の檻（R5隔離区画）",
+      "spiritual_room": "精神統制室（羞恥耐性測定）",
+      "living_quarters": {
+        "R4": "贖者舎（二段ベッド6室＋罰個室）",
+        "R5": "剥奪檻（拘束・監視下）"
+      }
+    },
+    "environment_modifiers": [
+      {"id": "E01", "name": "訓練", "modifier": -0.5},
+      {"id": "E02", "name": "統制儀", "modifier": -1.0},
+      {"id": "E03", "name": "贖罪儀", "modifier": -2.0},
+      {"id": "E04", "name": "精神評価", "modifier": -1.5},
+      {"id": "E05", "name": "外部奉誓", "modifier": -3.0}
+    ]
+  },
+  "league": {
+    "name": "Bulls Breed League",
+    "type": "下部奉仕競技リーグ",
+    "period": "12週×3シーズン／年",
+    "teams": [
+      {
+        "team": "Red Rumps",
+        "color": "深紅",
+        "focus": "尻部",
+        "theme": "見せる恥",
+        "ritual": {
+          "name": "紅蓮奉誓",
+          "tokens": [
+            {"id": "E1", "type": "身体干渉", "desc": "尻部への感覚刺激"},
+            {"id": "R1", "type": "羞恥反応", "desc": "筋肉の硬直・呼吸乱れ"},
+            {"id": "A1", "type": "観衆反応", "desc": "歓声と笑い声の増大"}
+          ]
+        }
+      },
+      {
+        "team": "Blue Chests",
+        "color": "鉄紺",
+        "focus": "胸部",
+        "theme": "揺れる恥",
+        "ritual": {
+          "name": "冷徹懺悔",
+          "tokens": [
+            {"id": "E1", "type": "感覚刺激", "desc": "胸部への反応検査"},
+            {"id": "R1", "type": "羞恥反応", "desc": "息遣いの乱れ"},
+            {"id": "A1", "type": "観衆反応", "desc": "拍手と揶揄の混じる空気"}
+          ]
+        }
+      },
+      {
+        "team": "White Legs",
+        "color": "乳白",
+        "focus": "脚部",
+        "theme": "跪く恥",
+        "ritual": {
+          "name": "奉脚儀",
+          "tokens": [
+            {"id": "E1", "type": "接触刺激", "desc": "足裏反応テスト"},
+            {"id": "R1", "type": "笑い反応", "desc": "体幹の震え"},
+            {"id": "A1", "type": "観衆反応", "desc": "失笑と拍手"}
+          ]
+        }
+      }
+    ],
+    "r4_rules": {
+      "max_years": 3,
+      "team_repeat_prohibited": true,
+      "early_promotion_allowed": true,
+      "transition": ["Red Rumps", "Blue Chests", "White Legs"]
+    },
+    "r5_cycle": {
+      "max_members": 4,
+      "desc": "R5は固定的に存在し、裏奉仕を続ける沈黙層。",
+      "annual_timeline": [
+        "年初：前年度最下位R4がスレイブ化",
+        "第1〜3期：各期ごとに1名降格",
+        "年末：4名体制でワースト決定戦実施"
+      ]
+    }
+  },
+  "rituals": {
+    "worst_of_slave_event": {
+      "title": "ワースト・オブ・スレイブ決定戦",
+      "frequency": "年1回",
+      "purpose": "裏奉仕層の儀礼的開示と羞恥循環の完結",
+      "evaluation": {
+        "formula": "UFS × 0.7 + 当日演舞スコア × 0.3",
+        "tokens": [
+          {"id": "E1", "type": "演舞", "desc": "奉仕儀礼（詳細省略）"},
+          {"id": "R1", "type": "羞恥反応", "desc": "沈黙から笑いへの変換"},
+          {"id": "A1", "type": "観衆反応", "desc": "哀れみと歓声の交錯"}
+        ]
+      },
+      "outcome": {
+        "worst": "継承スレイブとして翌年残留",
+        "others": "奉仕完了扱いで除籍・教材化"
+      }
+    }
+  },
+  "r5_system": {
+    "definition": "R5は秩序を裏から支える沈黙奉仕層。表舞台には登場せず、裏区画で奉仕業務を続ける。",
+    "workspace": "スレイブ・ブロック（閉鎖区域）",
+    "evaluation": {
+      "ufs": "Underground Faith Score",
+      "weights": {"obedience": 0.4, "precision": 0.3, "silence": 0.3}
+    },
+    "tokens": [
+      {"id": "E1", "type": "裏奉仕行為", "desc": "奉仕業務（省略）"},
+      {"id": "R1", "type": "心理反応", "desc": "羞恥・沈黙・耐久"},
+      {"id": "A1", "type": "観測反応", "desc": "記録官のメモ・映像"}
+    ]
+  },
+  "chara_summary": {
+    "total": 30,
+    "notable": [
+      {"id": 1, "name": "山城 剛", "rank": "R1"},
+      {"id": 10, "name": "本間 篤", "rank": "R3", "team": "Red Rumps"},
+      {"id": 11, "name": "市川 颯真", "rank": "R3", "team": "Blue Chests"},
+      {"id": 8, "name": "榊原 悠", "rank": "R3", "team": "White Legs"},
+      {"id": 29, "name": "神谷 迅", "rank": "R5", "role": "スレイブ"}
+    ]
+  },
+  "interaction_catalog": {
+    "精神破砕干渉": ["I-51", "I-52", "I-53"],
+    "裁定晒し干渉": ["I-61", "I-62", "I-63", "I-35", "I-33"]
+  },
+  "themes": {
+    "core": ["羞恥", "秩序", "奉仕", "支配", "沈黙"],
+    "structure": "R4が光、R5が影を形成し、笑いと痛みの循環で制度が自律する。"
+  }
+}
