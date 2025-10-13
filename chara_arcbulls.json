@@ -1,0 +1,1621 @@
+{
+  "team": "St. Ark Bulls",
+  "league": "Asia-Pacific League",
+  "world": "Sevens World",
+  "characters": [
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C01-YAMASHIRO",
+        "world_local_id": "ARKB-C01",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "山城 剛",
+        "alias": ["Go", "The King"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "主将・王（柱）",
+        "rank": "R1",
+        "tags": ["主将", "支配", "沈黙", "再生象徴", "理性と冷徹"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "初版生成：Ark Bullsキャプテンの完全定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "チーム統率・精神的支柱",
+        "status": "正規レギュラー／キャプテン",
+        "duties": ["試合指揮", "メンバー査定", "奉仕儀式監督", "再起候補の選抜"],
+        "training_focus": "冷静な意思決定と肉体制御の一致"
+      },
+      "appearance": {
+        "age": 22,
+        "height_cm": 184,
+        "weight_kg": 93,
+        "body_type": "均整筋肉型（No.8特有の厚背・低重心）",
+        "skin_tone": "浅褐色（リハビリ痕がわずかに残る）",
+        "hair": {
+          "color": "黒に近いダークブラウン",
+          "style": "短めの刈上げ。額の生え際に一本の白毛。"
+        },
+        "eyes": {
+          "color": "灰緑",
+          "shape": "切れ長で睨みの効いた目"
+        },
+        "features": ["額の傷跡", "広い肩幅", "常に冷静な表情", "右耳のリング"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-001",
+          "ceremonial": "ATTIRE-ARKB-002",
+          "training": "ATTIRE-ARKB-003",
+          "casual": "ATTIRE-ARKB-004"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-003",
+          "context": "練習統括・会議前",
+          "last_changed": "2025-10-12"
+        }
+      },
+      "personality": {
+        "core_traits": ["沈黙", "冷徹", "支配欲", "理性的判断", "矜持"],
+        "temperament": "静謐型リーダー気質",
+        "values": "結果よりも秩序。力よりも制御。",
+        "weaknesses": ["感情表現の欠如", "他者への共感不足", "過去への執着"],
+        "keywords": ["秩序", "沈黙", "支配", "再生", "孤独"]
+      },
+      "personality_metrics": {
+        "openness": 0.42,
+        "conscientiousness": 0.91,
+        "extraversion": 0.36,
+        "agreeableness": 0.38,
+        "neuroticism": 0.21,
+        "obedience_index": 0.88,
+        "shame_tolerance": 0.93,
+        "body_pride": 0.85,
+        "empathy_level": 0.32,
+        "dominance_drive": 0.94,
+        "submission_drive": 0.10,
+        "discipline_resilience": 0.96,
+        "social_mask": 0.89
+      },
+      "psychology": {
+        "motivation": "完全な支配下でのみ秩序が成り立つという信念。自身を“再生の器”として他者を導く。",
+        "conflict_internal": "他者を救済したいという微かな慈悲と、無慈悲な支配衝動との矛盾。",
+        "arc_hint": "沈黙の支配者 → 他者との共生を学ぶ“再生の父”へ。",
+        "reaction_patterns": {
+          "praise": "表情を変えず、短く礼をするのみ。",
+          "insult": "一瞥で沈黙させる。怒りは内に沈める。",
+          "command": "自らの判断で再解釈し、即座に実行。"
+        }
+      },
+      "background": {
+        "origin": "地方工業都市の落伍選手。怪我で引退後、再生工場プログラムに参加。",
+        "past_events": [
+          "大学時代にR4降格処分を受けるも、奉仕儀を完遂し復帰。",
+          "WSFの公開試験で“沈黙の儀”を制してR1へ昇格。"
+        ],
+        "current_status": "Ark Bulls主将・再生象徴としてメディア露出多数。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C02-KONOE", "type": "右腕", "note": "近衛涼。秩序維持を任せる忠臣。"},
+          {"target": "CHAR-ARKB-C07-KIMURA", "type": "同期・対立", "note": "木村慶。感情的な反発関係。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_captain_01", "pose_silent_command_02"],
+        "image_prompt": "muscular Japanese rugby captain standing tall under training lights, calm and cold eyes, dark short hair, slight scar on forehead, Ark Bulls navy patched uniform, cinematic lighting, realistic style",
+        "uniform_variant": "R1専用ユニフォーム（黒帯付きバンテージ）"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "奉仕儀指導時の沈黙の圧"},
+        {"id": "E2", "type": "奉仕", "desc": "支配者としての接触"}
+      ]
+    },
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C02-KONOE",
+        "world_local_id": "ARKB-C02",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "近衛 涼",
+        "alias": ["Ryo", "Record Keeper"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "副将・記録係",
+        "rank": "R2",
+        "tags": ["副将", "忠誠", "分析", "冷静", "規律"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls副将としての人格体系を定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "試合記録・戦術分析・秩序維持",
+        "status": "正規レギュラー",
+        "duties": ["映像記録管理", "データ分析", "訓練指標の更新"],
+        "training_focus": "集中力維持・呼吸制御・精神統制"
+      },
+      "appearance": {
+        "age": 21,
+        "height_cm": 177,
+        "weight_kg": 76,
+        "body_type": "引き締まった均整型",
+        "skin_tone": "淡色、血色控えめ",
+        "hair": {
+          "color": "銀灰",
+          "style": "短く後ろに流した整髪スタイル"
+        },
+        "eyes": {
+          "color": "群青",
+          "shape": "細く冷たい印象の二重"
+        },
+        "features": ["左眉の下の黒子", "無駄のない動作", "常に整った襟元"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-021",
+          "ceremonial": "ATTIRE-ARKB-022",
+          "training": "ATTIRE-ARKB-023",
+          "casual": "ATTIRE-ARKB-024"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-023",
+          "context": "試合前のデータ確認時",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["冷静", "従順", "分析的", "慎重", "忠義"],
+        "temperament": "理性優位型",
+        "values": "混乱を嫌い、秩序と明確な指示を重んじる。",
+        "weaknesses": ["感情抑制によるストレス蓄積", "自己主張の乏しさ"],
+        "keywords": ["忠誠", "静謐", "観察", "データ", "秩序"]
+      },
+      "personality_metrics": {
+        "openness": 0.58,
+        "conscientiousness": 0.87,
+        "extraversion": 0.28,
+        "agreeableness": 0.74,
+        "neuroticism": 0.41,
+        "obedience_index": 0.95,
+        "shame_tolerance": 0.79,
+        "body_pride": 0.64,
+        "empathy_level": 0.55,
+        "dominance_drive": 0.38,
+        "submission_drive": 0.65,
+        "discipline_resilience": 0.88,
+        "social_mask": 0.92
+      },
+      "psychology": {
+        "motivation": "剛に仕えることで秩序を守る。彼の静寂を支えることが自己の存在理由。",
+        "conflict_internal": "自身の正義が時に主将の方針と衝突することへの苦悩。",
+        "arc_hint": "従順な分析者 → 判断主体として自立するまでの成長。",
+        "reaction_patterns": {
+          "praise": "軽く微笑み、すぐに冷静な態度に戻る。",
+          "insult": "静かに記録を止め、相手の視線を見返す。",
+          "command": "指示を逐次再確認し、忠実に実行。"
+        }
+      },
+      "background": {
+        "origin": "関東の強豪大学出身。メディア学専攻から転向し、分析役として加入。",
+        "past_events": ["Bulls Orderの推薦を受け、再生工場初期メンバーとなる。"],
+        "current_status": "戦術室兼記録担当。WSF監査局との調整役も担う。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C01-YAMASHIRO", "type": "忠臣", "note": "剛への絶対的忠誠。"},
+          {"target": "CHAR-ARKB-C04-SAHARA", "type": "同僚", "note": "戦術補佐として信頼関係を築く。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_notebook_01", "pose_analysis_02"],
+        "image_prompt": "calm silver-haired japanese rugby player reviewing data tablet before match, blue eyes, disciplined posture, Ark Bulls uniform, cinematic lighting",
+        "uniform_variant": "R2副将用。左袖に白線1本。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "指令中の沈黙服従"},
+        {"id": "E2", "type": "奉仕", "desc": "記録補助儀の補助"}
+      ]
+    },
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C03-TODO",
+        "world_local_id": "ARKB-C03",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "東堂 渉",
+        "alias": ["Wataru", "Stone"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "練習統括リーダー",
+        "rank": "R2",
+        "tags": ["肉体至上", "古参", "厳格", "沈黙", "鍛錬"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "肉体的統率者としてのプロファイル定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "練習管理・筋力指導",
+        "status": "正規レギュラー",
+        "duties": ["練習設計", "体力検査", "若手指導"],
+        "training_focus": "筋肉反応と精神集中の連動"
+      },
+      "appearance": {
+        "age": 21,
+        "height_cm": 188,
+        "weight_kg": 101,
+        "body_type": "重量筋肉型",
+        "skin_tone": "やや濃い褐色。日焼けとトレーニング跡多数。",
+        "hair": {
+          "color": "漆黒",
+          "style": "短く刈り上げ、中央にわずかに残したライン"
+        },
+        "eyes": {
+          "color": "黒",
+          "shape": "細く圧のある眼差し"
+        },
+        "features": ["厚い首", "太い腕", "腕にBulls Orderの痕紋", "姿勢が常に正立"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-031",
+          "ceremonial": "ATTIRE-ARKB-032",
+          "training": "ATTIRE-ARKB-033",
+          "casual": "ATTIRE-ARKB-034"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-033",
+          "context": "練習統括中",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["厳格", "肉体信奉", "沈黙", "忠義", "ストイック"],
+        "temperament": "実直型",
+        "values": "肉体は言葉より正直である。",
+        "weaknesses": ["柔軟性の欠如", "変化への抵抗"],
+        "keywords": ["鍛錬", "規律", "静寂", "忠義", "力"]
+      },
+      "personality_metrics": {
+        "openness": 0.33,
+        "conscientiousness": 0.89,
+        "extraversion": 0.41,
+        "agreeableness": 0.44,
+        "neuroticism": 0.28,
+        "obedience_index": 0.91,
+        "shame_tolerance": 0.86,
+        "body_pride": 0.97,
+        "empathy_level": 0.27,
+        "dominance_drive": 0.88,
+        "submission_drive": 0.22,
+        "discipline_resilience": 0.92,
+        "social_mask": 0.71
+      },
+      "psychology": {
+        "motivation": "己の肉体を通じて秩序を守る。壊れた者を再び立たせる。",
+        "conflict_internal": "時代遅れの指導法への疑念。若手の柔軟性との齟齬。",
+        "arc_hint": "肉体の殻に籠る戦士 → 他者に教える“再生の師”へ。",
+        "reaction_patterns": {
+          "praise": "眉を僅かに動かすだけ。",
+          "insult": "静かに腕を組み、沈黙で返す。",
+          "command": "必要最小限の返答で遂行。"
+        }
+      },
+      "background": {
+        "origin": "旧Bulls Order訓練校出身。体罰文化の最後の世代。",
+        "past_events": ["監督による再教育プログラム第一期生。"],
+        "current_status": "練習統括。下部R4出身者の矯正訓練を担当。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C01-YAMASHIRO", "type": "敬愛", "note": "剛の理性に惹かれている。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_training_leader_01", "pose_wallstand_02"],
+        "image_prompt": "muscular japanese rugby trainer standing shirtless with whistle, tanned skin, sharp black eyes, Ark Bulls emblem on arm, cinematic contrast light",
+        "uniform_variant": "R2トレーニング仕様。上半身バンテージ。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "肉体検査儀式時の沈黙"},
+        {"id": "E2", "type": "奉仕", "desc": "矯正訓練での接触指導"}
+      ]
+    },
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C04-SAHARA",
+        "world_local_id": "ARKB-C04",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "佐原 慎吾",
+        "alias": ["Shingo", "Tactician"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "戦術参謀",
+        "rank": "R2",
+        "tags": ["戦術家", "観察者", "知略", "秩序", "合理主義"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls戦術参謀の性格・心理定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "戦術立案・データ解析・連携計画",
+        "status": "正規レギュラー",
+        "duties": ["フォーメーション設計", "対戦データ収集", "シナリオ戦術ブリーフィング"],
+        "training_focus": "冷静な俯瞰力と理論的判断の保持"
+      },
+      "appearance": {
+        "age": 22,
+        "height_cm": 180,
+        "weight_kg": 79,
+        "body_type": "スレンダーで筋線維が明瞭",
+        "skin_tone": "やや白め、常に整った肌質",
+        "hair": {
+          "color": "焦げ茶",
+          "style": "サイドを短く抑えた七三分け"
+        },
+        "eyes": {
+          "color": "琥珀",
+          "shape": "理知的で落ち着いた眼差し"
+        },
+        "features": ["細い指", "鋭利な顎ライン", "淡い香水の香り"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-041",
+          "ceremonial": "ATTIRE-ARKB-042",
+          "training": "ATTIRE-ARKB-043",
+          "casual": "ATTIRE-ARKB-044"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-041",
+          "context": "戦術会議室での作戦説明中",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["冷静", "合理主義", "知略的", "感情を表に出さない"],
+        "temperament": "分析思考型",
+        "values": "秩序立てた計画こそ最善の奉仕である。",
+        "weaknesses": ["突発的な感情への耐性が低い", "チームへの情動共感の不足"],
+        "keywords": ["理性", "解析", "静観", "秩序", "予測"]
+      },
+      "personality_metrics": {
+        "openness": 0.81,
+        "conscientiousness": 0.84,
+        "extraversion": 0.37,
+        "agreeableness": 0.52,
+        "neuroticism": 0.33,
+        "obedience_index": 0.77,
+        "shame_tolerance": 0.72,
+        "body_pride": 0.61,
+        "empathy_level": 0.45,
+        "dominance_drive": 0.54,
+        "submission_drive": 0.36,
+        "discipline_resilience": 0.83,
+        "social_mask": 0.91
+      },
+      "psychology": {
+        "motivation": "戦術により“再生”を演出する。人の動きを最適化することが美学。",
+        "conflict_internal": "理性では理解しても感情で共感できないことへの自己嫌悪。",
+        "arc_hint": "冷たい観察者 → 共鳴する戦術家への変化。",
+        "reaction_patterns": {
+          "praise": "淡く笑い、結果として処理する。",
+          "insult": "興味を失ったように沈黙。",
+          "command": "命令の背景意図を分析してから遂行。"
+        }
+      },
+      "background": {
+        "origin": "関西圏の国立大学出身。元バスケットボール選手。",
+        "past_events": [
+          "怪我により競技転向を決意。理論構築でArk Bullsに採用。",
+          "Bulls Order Holdingsとのデータ連携プロジェクトに関与。"
+        ],
+        "current_status": "チーム戦術室のリーダー。監督代理も務める。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C02-KONOE", "type": "戦略連携", "note": "記録係と情報共有関係。"},
+          {"target": "CHAR-ARKB-C01-YAMASHIRO", "type": "忠誠", "note": "剛の統率を理論的に補佐。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_tactician_01", "pose_whiteboard_02"],
+        "image_prompt": "intellectual japanese rugby strategist in suit jacket over team uniform, holding tablet, amber eyes, Ark Bulls colors, calm expression, soft daylight",
+        "uniform_variant": "R2用戦術コート。胸に銀のライン。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "分析対象として視線を受ける"},
+        {"id": "E2", "type": "奉仕", "desc": "命令に理論的服従を示す"}
+      ]
+    },
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C05-MUTO",
+        "world_local_id": "ARKB-C05",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "武藤 一真",
+        "alias": ["Kazuma", "Big Brother"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "奉仕指導員",
+        "rank": "R2",
+        "tags": ["豪放", "兄貴分", "支配欲", "再生指導", "人情"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls奉仕指導員のキャラクター定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "奉仕訓練・下位層教育・リハビリ担当",
+        "status": "正規レギュラー",
+        "duties": ["新人指導", "奉仕訓練補助", "心理フォロー"],
+        "training_focus": "肉体回復と精神再建の両立"
+      },
+      "appearance": {
+        "age": 20,
+        "height_cm": 183,
+        "weight_kg": 95,
+        "body_type": "厚みのある重量型",
+        "skin_tone": "健康的な小麦色",
+        "hair": {
+          "color": "黒",
+          "style": "ラフな短髪。前髪を軽く上げている。"
+        },
+        "eyes": {
+          "color": "焦げ茶",
+          "shape": "柔らかい二重。笑うと目尻が下がる。"
+        },
+        "features": ["左肩に古傷", "大きな手", "常に穏やかな笑み"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-051",
+          "ceremonial": "ATTIRE-ARKB-052",
+          "training": "ATTIRE-ARKB-053",
+          "casual": "ATTIRE-ARKB-054"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-053",
+          "context": "奉仕訓練場での指導時",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["豪放", "人情", "面倒見が良い", "支配的", "温厚"],
+        "temperament": "情熱型・社交的",
+        "values": "鍛える者は愛すべし。導くことが奉仕だ。",
+        "weaknesses": ["感情に流されやすい", "甘さが出る"],
+        "keywords": ["指導", "兄貴", "保護", "情熱", "再生"]
+      },
+      "personality_metrics": {
+        "openness": 0.67,
+        "conscientiousness": 0.73,
+        "extraversion": 0.82,
+        "agreeableness": 0.78,
+        "neuroticism": 0.39,
+        "obedience_index": 0.62,
+        "shame_tolerance": 0.81,
+        "body_pride": 0.88,
+        "empathy_level": 0.76,
+        "dominance_drive": 0.72,
+        "submission_drive": 0.38,
+        "discipline_resilience": 0.79,
+        "social_mask": 0.69
+      },
+      "psychology": {
+        "motivation": "後進を導くことに生の意味を見出す。誰かの再起を支えることで自身も救われる。",
+        "conflict_internal": "保護と支配の境界を越えがちな自覚と罪悪感。",
+        "arc_hint": "兄貴分の優しさ → 真の師への成熟。",
+        "reaction_patterns": {
+          "praise": "笑って肩を叩く。",
+          "insult": "怒鳴らずに静かに睨み返す。",
+          "command": "納得してから動くが、反対意見も述べる。"
+        }
+      },
+      "background": {
+        "origin": "地方リーグの元レスラー。肩の怪我で引退後、再生工場の奉仕課程に再入学。",
+        "past_events": ["奉仕訓練で特筆された“支援力”により教官補佐へ抜擢。"],
+        "current_status": "R3以下の奉仕訓練コーチ。人気が高く、ファン投票常連。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C01-YAMASHIRO", "type": "信頼", "note": "剛に対し兄貴的敬意を抱く。"},
+          {"target": "CHAR-ARKB-C13-HONMA", "type": "師弟", "note": "本間篤の育成を担当。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_coach_smile_01", "pose_supporting_02"],
+        "image_prompt": "friendly muscular japanese rugby coach smiling warmly, tanned skin, short black hair, wearing Ark Bulls patched training top, daylight realism",
+        "uniform_variant": "R2奉仕指導用。肩部に赤い補強布。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "奉仕指導中の精神接近"},
+        {"id": "E2", "type": "奉仕", "desc": "訓練補助時の触覚誘導"}
+      ]
+    }
+  ]
+}
+
+{
+  "team": "St. Ark Bulls",
+  "league": "Asia-Pacific League",
+  "world": "Sevens World",
+  "characters": [
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C06-KISHIDA",
+        "world_local_id": "ARKB-C06",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "岸田 啓",
+        "alias": ["Kei", "Silent Gaze"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "精神統制係",
+        "rank": "R2",
+        "tags": ["精神統制", "沈黙", "観察者", "内省", "忠誠"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls精神統制係のフルプロファイル。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "心理安定管理・メンタル調整",
+        "status": "正規レギュラー",
+        "duties": ["チーム心理測定", "集中誘導訓練", "精神儀式管理"],
+        "training_focus": "呼吸法・沈黙儀の再現"
+      },
+      "appearance": {
+        "age": 19,
+        "height_cm": 178,
+        "weight_kg": 72,
+        "body_type": "均整で引き締まった青年体型",
+        "skin_tone": "透き通るような白肌",
+        "hair": {
+          "color": "黒に近い深青",
+          "style": "無造作だが整ったショートレイヤー"
+        },
+        "eyes": {
+          "color": "薄灰色",
+          "shape": "柔らかい一重まぶた"
+        },
+        "features": ["無表情のまま柔らかな印象を与える", "姿勢が常に安定", "声が低く穏やか"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-061",
+          "ceremonial": "ATTIRE-ARKB-062",
+          "training": "ATTIRE-ARKB-063",
+          "casual": "ATTIRE-ARKB-064"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-061",
+          "context": "集中儀訓練中",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["沈黙", "冷静", "内省", "安定", "忠誠"],
+        "temperament": "静穏型",
+        "values": "声よりも眼差しで伝える。",
+        "weaknesses": ["他者の激情に巻き込まれると脆い", "無意識に距離を取る傾向"],
+        "keywords": ["沈黙", "精神統制", "視線", "均衡", "瞑想"]
+      },
+      "personality_metrics": {
+        "openness": 0.55,
+        "conscientiousness": 0.79,
+        "extraversion": 0.28,
+        "agreeableness": 0.69,
+        "neuroticism": 0.34,
+        "obedience_index": 0.88,
+        "shame_tolerance": 0.91,
+        "body_pride": 0.68,
+        "empathy_level": 0.62,
+        "dominance_drive": 0.49,
+        "submission_drive": 0.42,
+        "discipline_resilience": 0.91,
+        "social_mask": 0.86
+      },
+      "psychology": {
+        "motivation": "静けさの中で心を制御すること。沈黙がチームを守ると信じる。",
+        "conflict_internal": "抑えた感情が時折暴発することへの恐怖。",
+        "arc_hint": "沈黙の従者 → 感情を伝える勇気を得るまで。",
+        "reaction_patterns": {
+          "praise": "目を細めて小さく頷く。",
+          "insult": "無言のまま相手の目を見続ける。",
+          "command": "淡々と受け入れ、即動作。"
+        }
+      },
+      "background": {
+        "origin": "高校時代に精神不調で競技離脱。再生工場メンタルコースから昇格。",
+        "past_events": [
+          "沈黙儀の再現モデルとして注目。",
+          "主将・山城に“心の秩序”を評価され昇格。"
+        ],
+        "current_status": "R2メンタルトレーナー兼選手。試合中も心理誘導役を務める。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C01-YAMASHIRO", "type": "師弟", "note": "剛に忠誠を誓う。"},
+          {"target": "CHAR-ARKB-C07-KIMURA", "type": "対照", "note": "感情派の木村と頻繁に衝突。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_meditation_01", "pose_silent_gaze_02"],
+        "image_prompt": "calm young japanese rugby player sitting cross-legged in dim room, eyes calm gray, Ark Bulls training outfit, meditative mood, cinematic tone",
+        "uniform_variant": "R2精神統制服。胸に静音ライン。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "沈黙観察下での精神集中"},
+        {"id": "E2", "type": "奉仕", "desc": "心理誘導時の近距離接触"}
+      ]
+    },
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C07-KIMURA",
+        "world_local_id": "ARKB-C07",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "木村 慶",
+        "alias": ["Kei", "Fire"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "主将同期／対抗心持ち",
+        "rank": "R2",
+        "tags": ["情熱", "同期", "反骨", "感情的", "ライバル"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls主将同期キャラのライバル構造定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "プレーリーダー・士気統率",
+        "status": "正規レギュラー",
+        "duties": ["練習仕切り", "士気維持", "現場判断補佐"],
+        "training_focus": "瞬発力と判断直感の強化"
+      },
+      "appearance": {
+        "age": 20,
+        "height_cm": 180,
+        "weight_kg": 84,
+        "body_type": "俊敏でバランス型",
+        "skin_tone": "浅褐色",
+        "hair": {
+          "color": "赤茶",
+          "style": "無造作に跳ねたショートヘア"
+        },
+        "eyes": {
+          "color": "琥珀",
+          "shape": "熱を帯びた二重まぶた"
+        },
+        "features": ["常に眉を上げ気味", "笑うと八重歯が覗く", "腕に布バンドを巻く癖"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-071",
+          "ceremonial": "ATTIRE-ARKB-072",
+          "training": "ATTIRE-ARKB-073",
+          "casual": "ATTIRE-ARKB-074"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-073",
+          "context": "試合直前の円陣中",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["情熱的", "直感的", "衝動的", "誠実", "不器用"],
+        "temperament": "外向情熱型",
+        "values": "心が熱ければ身体は動く。",
+        "weaknesses": ["冷静さの欠如", "感情の制御が苦手"],
+        "keywords": ["火", "感情", "ライバル", "爆発", "誠意"]
+      },
+      "personality_metrics": {
+        "openness": 0.77,
+        "conscientiousness": 0.61,
+        "extraversion": 0.86,
+        "agreeableness": 0.73,
+        "neuroticism": 0.59,
+        "obedience_index": 0.55,
+        "shame_tolerance": 0.83,
+        "body_pride": 0.92,
+        "empathy_level": 0.68,
+        "dominance_drive": 0.71,
+        "submission_drive": 0.29,
+        "discipline_resilience": 0.58,
+        "social_mask": 0.66
+      },
+      "psychology": {
+        "motivation": "山城剛を超えたい。己の感情で秩序を動かす存在になりたい。",
+        "conflict_internal": "尊敬と反発の狭間で揺れる同期意識。沈黙の世界に馴染めない。",
+        "arc_hint": "激情の挑戦者 → 感情と秩序の融合者。",
+        "reaction_patterns": {
+          "praise": "嬉しそうに笑い飛ばす。",
+          "insult": "即座に言い返すか、沈黙して拳を握る。",
+          "command": "気に入らなければ反論するが最終的に従う。"
+        }
+      },
+      "background": {
+        "origin": "山城と同郷。旧友かつ宿命の同期。",
+        "past_events": [
+          "大学選抜で山城と主将争いに敗北。",
+          "再生工場への応募で共に復帰。"
+        ],
+        "current_status": "攻撃的リーダーとしてR2固定。ファン人気が高い。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C01-YAMASHIRO", "type": "同期・対立", "note": "彼を超えることが目標。"},
+          {"target": "CHAR-ARKB-C06-KISHIDA", "type": "衝突", "note": "精神統制型と性格が真逆。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_yell_01", "pose_rugby_dash_02"],
+        "image_prompt": "fiery japanese rugby player with amber eyes shouting in team huddle, red-brown hair, Ark Bulls uniform, dynamic lighting",
+        "uniform_variant": "R2用アタックユニフォーム。赤のアクセント。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "感情の爆発で沈黙を破る"},
+        {"id": "E2", "type": "奉仕", "desc": "忠誠と反発が入り混じる接触"}
+      ]
+    },
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C08-KUSAKA",
+        "world_local_id": "ARKB-C08",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "日下 翔",
+        "alias": ["Sho", "Sunny"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "情報伝達係",
+        "rank": "R3",
+        "tags": ["朗らか", "伝達", "社交的", "潤滑剤", "希望"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls 情報伝達係キャラクター初版。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "報連相・内部通達・外部広報補助",
+        "status": "R3 ベンチメンバー",
+        "duties": ["試合速報伝達", "チームSNS管理", "現場通訳的役割"],
+        "training_focus": "声量と滑舌・視線交流の訓練"
+      },
+      "appearance": {
+        "age": 20,
+        "height_cm": 175,
+        "weight_kg": 70,
+        "body_type": "軽量俊敏型",
+        "skin_tone": "健康的な小麦色",
+        "hair": {
+          "color": "栗色",
+          "style": "前髪を軽く流した柔らかいショート"
+        },
+        "eyes": {
+          "color": "明るい茶",
+          "shape": "丸みのある笑い目"
+        },
+        "features": ["常に笑顔", "えくぼが出る", "声が明るい"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-081",
+          "ceremonial": "ATTIRE-ARKB-082",
+          "training": "ATTIRE-ARKB-083",
+          "casual": "ATTIRE-ARKB-084"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-083",
+          "context": "練習間の連絡伝達中",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["明朗", "社交的", "機転", "気配り", "親しみ"],
+        "temperament": "外向快活型",
+        "values": "場を明るく保つことが最良の奉仕。",
+        "weaknesses": ["軽率な発言で空気を乱すことがある", "深い議論を避けがち"],
+        "keywords": ["明るさ", "潤滑", "声", "情報", "希望"]
+      },
+      "personality_metrics": {
+        "openness": 0.71,
+        "conscientiousness": 0.56,
+        "extraversion": 0.93,
+        "agreeableness": 0.81,
+        "neuroticism": 0.44,
+        "obedience_index": 0.63,
+        "shame_tolerance": 0.75,
+        "body_pride": 0.78,
+        "empathy_level": 0.79,
+        "dominance_drive": 0.47,
+        "submission_drive": 0.53,
+        "discipline_resilience": 0.69,
+        "social_mask": 0.84
+      },
+      "psychology": {
+        "motivation": "チームの雰囲気を維持すること。皆が笑っていられる環境を作りたい。",
+        "conflict_internal": "笑顔の裏で感じる孤独と責任の重さ。",
+        "arc_hint": "ムードメーカー → 支えの重さを理解する大人へ。",
+        "reaction_patterns": {
+          "praise": "照れながら笑い飛ばす。",
+          "insult": "冗談に変えて受け流すが内心は傷つく。",
+          "command": "快諾して即実行、明るく返事。"
+        }
+      },
+      "background": {
+        "origin": "地方放送局の学生アナ出身。話術を買われ加入。",
+        "past_events": ["R4奉仕式で“最も声が美しい”と評され昇格。"],
+        "current_status": "広報・伝達役。メディア露出が多い。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C09-IMAIZUMI", "type": "信頼", "note": "安全管理の今泉とは相互補完関係。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_smile_01", "pose_mic_02"],
+        "image_prompt": "cheerful japanese rugby player with mic headset smiling brightly, light brown hair, Ark Bulls training top, outdoor daylight, friendly expression",
+        "uniform_variant": "R3 情報ユニフォーム。肩に通信ロゴ。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "報告儀中の視線集中"},
+        {"id": "E2", "type": "奉仕", "desc": "声による心理誘導"}
+      ]
+    },
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C09-IMAIZUMI",
+        "world_local_id": "ARKB-C09",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "今泉 隼人",
+        "alias": ["Hayato", "Guard"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "副務・安全管理係",
+        "rank": "R3",
+        "tags": ["合理主義", "安全管理", "冷静", "責任感", "慎重"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls 安全管理担当の定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "リスク管理・安全監督",
+        "status": "R3 控え選手",
+        "duties": ["練習安全確認", "設備点検", "試合リスク報告"],
+        "training_focus": "冷静な判断・安全確保動作"
+      },
+      "appearance": {
+        "age": 21,
+        "height_cm": 182,
+        "weight_kg": 86,
+        "body_type": "均整の取れたアスリート体型",
+        "skin_tone": "オリーブ色",
+        "hair": {
+          "color": "黒",
+          "style": "センター分けショート"
+        },
+        "eyes": {
+          "color": "深緑",
+          "shape": "真っすぐで理性的な眼差し"
+        },
+        "features": ["常に冷静な声色", "口数が少ない", "姿勢が正しい"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-091",
+          "ceremonial": "ATTIRE-ARKB-092",
+          "training": "ATTIRE-ARKB-093",
+          "casual": "ATTIRE-ARKB-094"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-093",
+          "context": "設備点検中",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["冷静", "慎重", "責任感", "公平", "観察的"],
+        "temperament": "内向理性型",
+        "values": "安全を守ることが全員を支える最善の奉仕。",
+        "weaknesses": ["情動表現の乏しさ", "過度な自己責任意識"],
+        "keywords": ["安全", "責務", "冷静", "秩序", "判断"]
+      },
+      "personality_metrics": {
+        "openness": 0.54,
+        "conscientiousness": 0.88,
+        "extraversion": 0.39,
+        "agreeableness": 0.72,
+        "neuroticism": 0.27,
+        "obedience_index": 0.81,
+        "shame_tolerance": 0.84,
+        "body_pride": 0.66,
+        "empathy_level": 0.57,
+        "dominance_drive": 0.51,
+        "submission_drive": 0.45,
+        "discipline_resilience": 0.93,
+        "social_mask": 0.87
+      },
+      "psychology": {
+        "motivation": "危険を防ぎ仲間を守る。それが再生への第一歩と信じる。",
+        "conflict_internal": "他人を守りすぎて自分が壊れることへの恐れ。",
+        "arc_hint": "静かな保護者 → 自己開示を学ぶ守護者へ。",
+        "reaction_patterns": {
+          "praise": "静かに頷き“当然です”と返す。",
+          "insult": "反応を見せずに作業を続ける。",
+          "command": "合理性を確認してから動く。"
+        }
+      },
+      "background": {
+        "origin": "元陸上十種競技選手。怪我で引退後、安全監督を志す。",
+        "past_events": [
+          "復帰試験で冷静な救護判断を行い評価された。",
+          "再生工場の安全教育部門から現場転属。"
+        ],
+        "current_status": "チーム安全管理責任者。フィールドでは冷静な盾役。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C08-KUSAKA", "type": "協力", "note": "明朗な日下を影で支える。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_guard_01", "pose_clipboard_02"],
+        "image_prompt": "focused japanese rugby safety officer with clipboard, calm green eyes, Ark Bulls uniform, industrial locker-room lighting",
+        "uniform_variant": "R3 安全監督用。腰部に識別タグ。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "安全点検中の不意の接触"},
+        {"id": "E2", "type": "奉仕", "desc": "緊急時救護動作"}
+      ]
+    },
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C10-SAKAKIBARA",
+        "world_local_id": "ARKB-C10",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "榊原 悠",
+        "alias": ["Yu", "Perfectionist"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "奉仕訓練補佐",
+        "rank": "R3",
+        "tags": ["几帳面", "完璧主義", "秩序", "美学", "冷静"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls 訓練補佐キャラクター定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "訓練補佐・儀礼動作監修",
+        "status": "R3 ベンチメンバー",
+        "duties": ["奉仕儀式補佐", "動作美監修", "器具整備"],
+        "training_focus": "姿勢美と動作精度"
+      },
+      "appearance": {
+        "age": 19,
+        "height_cm": 176,
+        "weight_kg": 68,
+        "body_type": "細身で均整の取れた体型",
+        "skin_tone": "透白肌",
+        "hair": {
+          "color": "黒",
+          "style": "整えられたセンターパート"
+        },
+        "eyes": {
+          "color": "黒",
+          "shape": "涼しげな二重まぶた"
+        },
+        "features": ["白く長い指", "常に背筋が伸びている", "淡い香水"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-101",
+          "ceremonial": "ATTIRE-ARKB-102",
+          "training": "ATTIRE-ARKB-103",
+          "casual": "ATTIRE-ARKB-104"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-101",
+          "context": "奉仕動作講習中",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["几帳面", "静か", "完璧主義", "冷静", "自制的"],
+        "temperament": "内省分析型",
+        "values": "奉仕は美である。正確さこそ敬意。",
+        "weaknesses": ["柔軟性の不足", "失敗への恐怖"],
+        "keywords": ["精度", "美", "規律", "冷静", "姿勢"]
+      },
+      "personality_metrics": {
+        "openness": 0.62,
+        "conscientiousness": 0.93,
+        "extraversion": 0.32,
+        "agreeableness": 0.61,
+        "neuroticism": 0.48,
+        "obedience_index": 0.89,
+        "shame_tolerance": 0.72,
+        "body_pride": 0.75,
+        "empathy_level": 0.49,
+        "dominance_drive": 0.44,
+        "submission_drive": 0.47,
+        "discipline_resilience": 0.95,
+        "social_mask": 0.88
+      },
+      "psychology": {
+        "motivation": "動作を極限まで整えることで、己を無に近づけたい。",
+        "conflict_internal": "完璧を求めるあまり他者との協調を失う恐れ。",
+        "arc_hint": "完璧主義者 → 他者と調和する柔軟な奉仕者へ。",
+        "reaction_patterns": {
+          "praise": "無言で軽く会釈。",
+          "insult": "表情を変えずに作業を続ける。",
+          "command": "即応だが正確さを優先。"
+        }
+      },
+      "background": {
+        "origin": "芸術系高校で舞踊専攻。奉仕動作の美を研究対象とする。",
+        "past_events": [
+          "Bulls Order 系の儀式演舞を再現し注目を浴びる。",
+          "技術重視型として再生工場にスカウト。"
+        ],
+        "current_status": "奉仕訓練補佐。儀式美監修チーム所属。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C11-KAMIYA", "type": "尊敬", "note": "神谷の身体表現を美として分析。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_precision_01", "pose_balance_02"],
+        "image_prompt": "poised japanese rugby trainee demonstrating perfect balanced stance, pale skin, dark hair, Ark Bulls ceremonial training hall, minimalistic lighting",
+        "uniform_variant": "R3 奉仕動作監修服。白×紺の儀礼ライン。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "儀式動作中の注視"},
+        {"id": "E2", "type": "奉仕", "desc": "動作指導補助時の接触"}
+      ]
+    }
+  ]
+}
+{
+  "team": "St. Ark Bulls",
+  "league": "Asia-Pacific League",
+  "world": "Sevens World",
+  "characters": [
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C11-KAMIYA",
+        "world_local_id": "ARKB-C11",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "神谷 迅",
+        "alias": ["Jin", "Breaker"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "第二エース候補",
+        "rank": "R3",
+        "tags": ["野心", "誇り", "孤高", "挑戦", "反逆"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls 神谷迅の野心的プロファイル定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "攻撃エース補佐／ポジションリーダー（No.8）",
+        "status": "R3 正規ベンチ",
+        "duties": ["エース補佐", "体力テスト代表", "R2昇格試験参加"],
+        "training_focus": "筋力・瞬発力・羞恥耐性の統合強化"
+      },
+      "appearance": {
+        "age": 20,
+        "height_cm": 183,
+        "weight_kg": 90,
+        "body_type": "均整で鋭い筋肉質",
+        "skin_tone": "褐色（トレーニング焼け）",
+        "hair": {
+          "color": "黒",
+          "style": "刈り上げとトップの長髪を残したスポーティカット"
+        },
+        "eyes": {
+          "color": "金茶",
+          "shape": "鋭く獲物を捉えるような視線"
+        },
+        "features": ["額の縦傷", "常に挑む姿勢", "首筋の太い筋", "眉間の皺"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-111",
+          "ceremonial": "ATTIRE-ARKB-112",
+          "training": "ATTIRE-ARKB-113",
+          "casual": "ATTIRE-ARKB-114"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-113",
+          "context": "試合前アップ時",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["誇り高い", "攻撃的", "野心家", "孤高", "努力家"],
+        "temperament": "外向衝動型",
+        "values": "敗北を超えることこそ存在意義。",
+        "weaknesses": ["協調性の欠如", "苛立ちの制御困難"],
+        "keywords": ["挑戦", "誇り", "限界", "再起", "炎"]
+      },
+      "personality_metrics": {
+        "openness": 0.78,
+        "conscientiousness": 0.69,
+        "extraversion": 0.74,
+        "agreeableness": 0.42,
+        "neuroticism": 0.62,
+        "obedience_index": 0.48,
+        "shame_tolerance": 0.93,
+        "body_pride": 0.96,
+        "empathy_level": 0.39,
+        "dominance_drive": 0.89,
+        "submission_drive": 0.23,
+        "discipline_resilience": 0.76,
+        "social_mask": 0.61
+      },
+      "psychology": {
+        "motivation": "山城剛を超え、自身が“再生の象徴”となること。",
+        "conflict_internal": "尊敬と憎悪の共存。自分を試すために苦しみを求める性。",
+        "arc_hint": "反逆者 → 真の後継者への昇華。",
+        "reaction_patterns": {
+          "praise": "軽く笑い“当然だ”と返す。",
+          "insult": "睨み返し、結果で証明する。",
+          "command": "納得できなければ黙殺するが、後に倍返しで遂行。"
+        }
+      },
+      "background": {
+        "origin": "高校全国区選手。慢心で転倒、R4降格を経て再起。",
+        "past_events": [
+          "再生工場の特別再起プログラムを経てR3復帰。",
+          "肉体再構築トレーニング“第二儀”を完遂。"
+        ],
+        "current_status": "R3第二エース。昇格候補筆頭。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C01-YAMASHIRO", "type": "対立", "note": "超えるべき壁として意識。"},
+          {"target": "CHAR-ARKB-C10-SAKAKIBARA", "type": "被観察", "note": "榊原に身体動作の美を分析されている。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_battle_01", "pose_challenge_02"],
+        "image_prompt": "muscular japanese rugby player with intense eyes and scar on forehead standing in locker room, sweat glistening, Ark Bulls dark patched uniform, cinematic realism",
+        "uniform_variant": "R3 攻撃型ユニフォーム。黒赤ライン仕様。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "挑戦中の肉体露呈"},
+        {"id": "E2", "type": "奉仕", "desc": "主将命令への屈服訓練"}
+      ]
+    },
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C12-OKABE",
+        "world_local_id": "ARKB-C12",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "岡部 拓海",
+        "alias": ["Takumi", "Rookie Light"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "新人昇格者",
+        "rank": "R3",
+        "tags": ["純粋", "内向", "努力", "希望", "若手"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls 新人昇格キャラ定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "若手選手／メンタルトレーニング被験者",
+        "status": "R3 新規昇格",
+        "duties": ["試合補助", "練習参加", "記録更新テスト"],
+        "training_focus": "基礎体力・羞恥抵抗・視線順応"
+      },
+      "appearance": {
+        "age": 18,
+        "height_cm": 174,
+        "weight_kg": 68,
+        "body_type": "若干細身で柔軟性に富む",
+        "skin_tone": "淡いベージュ",
+        "hair": {
+          "color": "黒",
+          "style": "前髪を下ろした素朴なショート"
+        },
+        "eyes": {
+          "color": "澄んだ茶",
+          "shape": "やや垂れ目"
+        },
+        "features": ["あどけなさが残る顔立ち", "未熟な筋肉線", "よく頬を赤らめる"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-121",
+          "ceremonial": "ATTIRE-ARKB-122",
+          "training": "ATTIRE-ARKB-123",
+          "casual": "ATTIRE-ARKB-124"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-123",
+          "context": "練習試験参加中",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["純粋", "素直", "内向的", "慎重", "繊細"],
+        "temperament": "感受性高い型",
+        "values": "努力すれば必ず報われると信じる。",
+        "weaknesses": ["周囲に流されやすい", "自己主張が苦手"],
+        "keywords": ["純粋", "再生", "成長", "羞恥", "努力"]
+      },
+      "personality_metrics": {
+        "openness": 0.68,
+        "conscientiousness": 0.72,
+        "extraversion": 0.39,
+        "agreeableness": 0.81,
+        "neuroticism": 0.56,
+        "obedience_index": 0.83,
+        "shame_tolerance": 0.64,
+        "body_pride": 0.48,
+        "empathy_level": 0.77,
+        "dominance_drive": 0.32,
+        "submission_drive": 0.57,
+        "discipline_resilience": 0.71,
+        "social_mask": 0.79
+      },
+      "psychology": {
+        "motivation": "チームに認められること。失敗しても笑われずに立ち上がる勇気。",
+        "conflict_internal": "羞恥や恐怖を克服する過程に喜びを見出せない葛藤。",
+        "arc_hint": "純粋な新人 → 恐れを抱えながらも前進する若き再生者。",
+        "reaction_patterns": {
+          "praise": "照れて俯くが嬉しそうに笑う。",
+          "insult": "涙目になるが反論せず努力で返す。",
+          "command": "素直に従うがぎこちない動き。"
+        }
+      },
+      "background": {
+        "origin": "高校ラグビー中退者。SNS推薦でArk Bulls入り。",
+        "past_events": ["奉仕式で最年少昇格。純粋性が評価された。"],
+        "current_status": "新人マスコット的存在。ファン人気上昇中。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C05-MUTO", "type": "指導", "note": "武藤に兄貴的に支えられている。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_rookie_01", "pose_blush_02"],
+        "image_prompt": "innocent young japanese rugby player smiling shyly during training, short black hair, fair skin, Ark Bulls rookie uniform, soft daylight",
+        "uniform_variant": "R3 新人用。白ライン入り。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "初奉仕訓練での戸惑い"},
+        {"id": "E2", "type": "奉仕", "desc": "先輩への補助作業"}
+      ]
+    },
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C13-HONMA",
+        "world_local_id": "ARKB-C13",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "本間 篤",
+        "alias": ["Atsushi", "Boss"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "練習隊長",
+        "rank": "R3",
+        "tags": ["豪胆", "兄貴肌", "情熱", "声量", "現場統率"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls 練習隊長キャラ定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "練習隊長・フィールド統率",
+        "status": "R3 ベンチリーダー",
+        "duties": ["練習号令", "下位層の指導", "チーム士気維持"],
+        "training_focus": "チーム連携・声の通達力・リーダーシップ"
+      },
+      "appearance": {
+        "age": 19,
+        "height_cm": 182,
+        "weight_kg": 94,
+        "body_type": "厚みのある重量型",
+        "skin_tone": "褐色、汗光沢が強い",
+        "hair": {
+          "color": "黒",
+          "style": "短髪、前髪を立てている"
+        },
+        "eyes": {
+          "color": "茶褐色",
+          "shape": "丸く力強い"
+        },
+        "features": ["声が太く響く", "笑い皺が多い", "胸板が厚い"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-131",
+          "ceremonial": "ATTIRE-ARKB-132",
+          "training": "ATTIRE-ARKB-133",
+          "casual": "ATTIRE-ARKB-134"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-133",
+          "context": "集合訓練時",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["豪快", "温厚", "責任感", "情熱的", "単純明快"],
+        "temperament": "外向情熱型",
+        "values": "仲間のためなら体を張る。",
+        "weaknesses": ["繊細な対応が苦手", "感情に任せて動く傾向"],
+        "keywords": ["声", "熱", "兄貴", "団結", "笑顔"]
+      },
+      "personality_metrics": {
+        "openness": 0.64,
+        "conscientiousness": 0.68,
+        "extraversion": 0.92,
+        "agreeableness": 0.87,
+        "neuroticism": 0.43,
+        "obedience_index": 0.71,
+        "shame_tolerance": 0.88,
+        "body_pride": 0.94,
+        "empathy_level": 0.73,
+        "dominance_drive": 0.76,
+        "submission_drive": 0.33,
+        "discipline_resilience": 0.81,
+        "social_mask": 0.72
+      },
+      "psychology": {
+        "motivation": "全員で生き残ること。誰も欠けさせたくない。",
+        "conflict_internal": "優しさが甘さになり、秩序を乱す自覚。",
+        "arc_hint": "熱血兄貴 → 真のリーダーとしての成長。",
+        "reaction_patterns": {
+          "praise": "大声で笑い、仲間を巻き込む。",
+          "insult": "一瞬怒るがすぐに笑い飛ばす。",
+          "command": "納得していれば即実行。理不尽なら食い下がる。"
+        }
+      },
+      "background": {
+        "origin": "地方実業団出身。声出し指導でスカウト。",
+        "past_events": [
+          "奉仕課程で最も訓練意識の高いR4として表彰。",
+          "昇格後は木村・武藤の下で練習班統率を担当。"
+        ],
+        "current_status": "R3 練習統括。下位層の精神的支柱。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C05-MUTO", "type": "師弟", "note": "武藤の教え子。兄貴と慕う。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_shout_01", "pose_team_lead_02"],
+        "image_prompt": "powerful japanese rugby player shouting encouragement on field, sweat, thick chest, bright daylight, Ark Bulls patched uniform, cinematic realism",
+        "uniform_variant": "R3 練習統率服。胸部補強布付き。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "士気訓練中の演技奉仕"},
+        {"id": "E2", "type": "奉仕", "desc": "身体接触による連携訓練"}
+      ]
+    },
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C14-ICHIKAWA",
+        "world_local_id": "ARKB-C14",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "市川 颯真",
+        "alias": ["Soma", "Logic"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "戦術補佐",
+        "rank": "R3",
+        "tags": ["頭脳派", "冷静", "分析", "戦略", "異端"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls 戦術補佐キャラ定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "戦術補佐・記録解析",
+        "status": "R3 ベンチメンバー",
+        "duties": ["戦術データ補助", "試合後分析", "リプレイ研究"],
+        "training_focus": "判断力・冷静な反応"
+      },
+      "appearance": {
+        "age": 20,
+        "height_cm": 178,
+        "weight_kg": 74,
+        "body_type": "引き締まった理知的体型",
+        "skin_tone": "淡色肌",
+        "hair": {
+          "color": "黒",
+          "style": "眼鏡にかからないよう整えたストレートショート"
+        },
+        "eyes": {
+          "color": "青灰",
+          "shape": "理性的でやや眠たげ"
+        },
+        "features": ["眼鏡", "常に静かに微笑む", "細い指先"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-141",
+          "ceremonial": "ATTIRE-ARKB-142",
+          "training": "ATTIRE-ARKB-143",
+          "casual": "ATTIRE-ARKB-144"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-141",
+          "context": "戦術ノート整理中",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["理性", "冷静", "皮肉", "独立", "聡明"],
+        "temperament": "分析型・皮肉屋",
+        "values": "群れの中で考えるより、一歩引いて全体を見る。",
+        "weaknesses": ["他者と距離を置きがち", "感情を共有しづらい"],
+        "keywords": ["知性", "孤独", "観察", "静寂", "戦略"]
+      },
+      "personality_metrics": {
+        "openness": 0.84,
+        "conscientiousness": 0.76,
+        "extraversion": 0.35,
+        "agreeableness": 0.48,
+        "neuroticism": 0.41,
+        "obedience_index": 0.67,
+        "shame_tolerance": 0.79,
+        "body_pride": 0.59,
+        "empathy_level": 0.51,
+        "dominance_drive": 0.43,
+        "submission_drive": 0.38,
+        "discipline_resilience": 0.83,
+        "social_mask": 0.89
+      },
+      "psychology": {
+        "motivation": "合理的判断でチームの暴走を防ぐ。",
+        "conflict_internal": "情熱的なチームに馴染めない疎外感。",
+        "arc_hint": "孤高の理論家 → 感情を受け入れる参謀へ。",
+        "reaction_patterns": {
+          "praise": "控えめに微笑し受け流す。",
+          "insult": "冷静に分析して反論。",
+          "command": "納得できれば即実行。疑問があれば記録して検証。"
+        }
+      },
+      "background": {
+        "origin": "情報科学専攻の大学生。AI戦術研究からスカウト。",
+        "past_events": [
+          "他チームでデータ流出疑惑をかけられ、脱退。",
+          "再生工場の推薦でリハビリ参入。"
+        ],
+        "current_status": "分析チーム所属。データ面で貢献。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C04-SAHARA", "type": "後輩", "note": "理論構築の弟子的立場。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_data_01", "pose_tablet_02"],
+        "image_prompt": "smart japanese rugby analyst with glasses using tablet during match analysis, calm, Ark Bulls dark blue uniform, neon reflections",
+        "uniform_variant": "R3 戦術補佐服。袖に銀刺繍ライン。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "分析時の視線対象化"},
+        {"id": "E2", "type": "奉仕", "desc": "理論補助としての接触観察"}
+      ]
+    },
+
+    {
+      "id_schema": {
+        "global_id": "CHAR-ARKB-C15-SAEKI",
+        "world_local_id": "ARKB-C15",
+        "instance_id": null
+      },
+      "char_meta": {
+        "char_name": "佐伯 蓮",
+        "alias": ["Ren", "Beauty Wing"],
+        "series": "Sevens World / Ark Bulls",
+        "role": "奉仕演武の美担当",
+        "rank": "R3",
+        "tags": ["優美", "ナルシスト", "演武", "美意識", "魅せる奉仕"],
+        "version_history": {
+          "current_version": "1.0.0",
+          "last_updated": "2025-10-13",
+          "change_summary": "Ark Bulls 美担当キャラ定義。"
+        }
+      },
+      "role_in_world": {
+        "organization": "Ark Bulls",
+        "function": "奉仕演武モデル／広報担当",
+        "status": "R3 ベンチメンバー",
+        "duties": ["演武ショー出演", "ポーズ模範", "撮影対応"],
+        "training_focus": "姿勢・所作・表情筋コントロール"
+      },
+      "appearance": {
+        "age": 18,
+        "height_cm": 177,
+        "weight_kg": 66,
+        "body_type": "しなやかで均整の取れたモデル体型",
+        "skin_tone": "透白肌に微光沢",
+        "hair": {
+          "color": "白金",
+          "style": "軽くウェーブのかかった長めショート"
+        },
+        "eyes": {
+          "color": "青灰",
+          "shape": "中性的で長い睫毛"
+        },
+        "features": ["美形の顔立ち", "整った姿勢", "唇がやや厚い"],
+        "attire_ref": {
+          "default": "ATTIRE-ARKB-151",
+          "ceremonial": "ATTIRE-ARKB-152",
+          "training": "ATTIRE-ARKB-153",
+          "casual": "ATTIRE-ARKB-154"
+        },
+        "attire_state": {
+          "current_attire": "ATTIRE-ARKB-152",
+          "context": "奉仕演武ショー直前",
+          "last_changed": "2025-10-13"
+        }
+      },
+      "personality": {
+        "core_traits": ["優美", "自覚的", "誇り高い", "繊細", "内省的"],
+        "temperament": "審美主義型",
+        "values": "美は罪ではなく赦し。奉仕は芸術である。",
+        "weaknesses": ["他人の視線に依存", "孤独に弱い"],
+        "keywords": ["美", "奉仕", "演武", "ナルシズム", "光"]
+      },
+      "personality_metrics": {
+        "openness": 0.89,
+        "conscientiousness": 0.66,
+        "extraversion": 0.58,
+        "agreeableness": 0.67,
+        "neuroticism": 0.52,
+        "obedience_index": 0.74,
+        "shame_tolerance": 0.68,
+        "body_pride": 0.94,
+        "empathy_level": 0.58,
+        "dominance_drive": 0.52,
+        "submission_drive": 0.46,
+        "discipline_resilience": 0.71,
+        "social_mask": 0.93
+      },
+      "psychology": {
+        "motivation": "奉仕を芸術として昇華すること。見られることで存在を確かめる。",
+        "conflict_internal": "美の演出が奉仕の本質から逸脱する恐れ。",
+        "arc_hint": "自意識の美 → 他者への贈与としての美へ。",
+        "reaction_patterns": {
+          "praise": "微笑みながら“当然です”と返す。",
+          "insult": "冷ややかに目を伏せ、静かに距離を取る。",
+          "command": "所作を整えて従うが、視線で主張を残す。"
+        }
+      },
+      "background": {
+        "origin": "モデル志望として芸能活動経験あり。再生工場の奉仕演武に惹かれ応募。",
+        "past_events": [
+          "演武式で最も美しい所作と称され一躍注目。",
+          "視聴者人気からArk Bulls所属が決定。"
+        ],
+        "current_status": "奉仕演武担当。SNSフォロワー最多。",
+        "relationships": [
+          {"target": "CHAR-ARKB-C10-SAKAKIBARA", "type": "美学同志", "note": "互いに動作美を高め合う関係。"}
+        ]
+      },
+      "visual_ref": {
+        "pose_catalog": ["pose_grace_01", "pose_reflect_02"],
+        "image_prompt": "elegant androgynous japanese rugby performer with platinum hair and graceful stance, Ark Bulls ceremonial outfit, soft spotlights, cinematic tone",
+        "uniform_variant": "R3 演武用。白金ライン入り儀式服。"
+      },
+      "erotic_tokens": [
+        {"id": "E1", "type": "羞恥", "desc": "観客の前での演武儀"},
+        {"id": "E2", "type": "奉仕", "desc": "奉納ポーズ時の精神集中"}
+      ]
+    }
+  ]
+}
+
+

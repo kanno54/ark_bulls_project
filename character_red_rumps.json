@@ -1,0 +1,348 @@
+{
+  "team": "Red Rumps",
+  "season": "S1",
+  "members": [
+    {
+      "id_schema": { "char_id": "BREED-C001", "team": "Red Rumps", "rank": "R4", "season": "S1" },
+      "profile": {
+        "name": "天城 蓮",
+        "age": 27,
+        "height_cm": 182,
+        "weight_kg": 86,
+        "body_type": "厚胴型",
+        "skin_tone": "小麦",
+        "muscle_focus": ["尻", "脚", "背中"],
+        "hair": { "color": "黒", "style": "刈り上げショート" },
+        "eyes": { "color": "茶", "expression": "強気" }
+      },
+      "physical_features": {
+        "ass_shape": "盛り上がり",
+        "ass_texture": "筋張り",
+        "pelvis_tilt": "前傾",
+        "muscle_density": 0.85,
+        "fat_percentage": 0.09,
+        "sweat_behavior": "試合中は尻筋の輪郭に汗が浮く",
+        "pose_tendency": ["腰を反らせる", "尻を引く"],
+        "exposure_reaction": "RR_R1"
+      },
+      "shame_psychology": {
+        "baseline_shame_tolerance": 0.6,
+        "public_exposure_response": {
+          "mild": "苦笑して手で押さえる",
+          "moderate": "息を整えて無理やり立ち直る",
+          "severe": "無言で地面を見つめる"
+        },
+        "voice_reaction": {
+          "surprise": "短く息を呑む",
+          "endurance": "低く唸る",
+          "collapse": "沈黙して歯を食いしばる"
+        },
+        "coping_behavior": ["笑って誤魔化す", "筋トレで発散"]
+      },
+      "erotic_weakpoints": [
+        { "id": "EWP1", "zone": "臀部", "sensitivity": 0.7, "reaction": "視線だけで動きが硬直する" },
+        { "id": "EWP2", "zone": "腰骨", "sensitivity": 0.6, "reaction": "軽く触れられると反射的に背を反らす" }
+      ],
+      "team_role": {
+        "preferred_positions": [
+          { "pos": "hooker", "aptitude": 0.9, "reason": "低姿勢で安定感がある" },
+          { "pos": "support_front", "aptitude": 0.8, "reason": "支える姿勢が美しい" }
+        ],
+        "overall_strengths": ["筋力", "持久力"],
+        "shame_focus": "尻の張り出し",
+        "rotation_comment": "羞恥を誇りに変えるタイプ"
+      },
+      "emotion_arc": {
+        "intro_state": "堂々とした姿勢",
+        "mid_state": "恥を意識し始める",
+        "climax_state": "羞恥と誇りの両立",
+        "ending_state": "観客の前で自然に笑う"
+      },
+      "visual_ref": { "attire": "ATTIRE-BB-RR-001", "pose_catalog": ["P-03"], "lighting": "warm", "camera_focus": "low angle" }
+    },
+
+    {
+      "id_schema": { "char_id": "BREED-C002", "team": "Red Rumps", "rank": "R4", "season": "S1" },
+      "profile": {
+        "name": "佐伯 琉真",
+        "age": 23,
+        "height_cm": 176,
+        "weight_kg": 78,
+        "body_type": "均整型",
+        "skin_tone": "白",
+        "muscle_focus": ["胸", "尻", "腕"],
+        "hair": { "color": "赤茶", "style": "やや長めのウルフ" },
+        "eyes": { "color": "灰青", "expression": "生意気" }
+      },
+      "physical_features": {
+        "ass_shape": "丸み",
+        "ass_texture": "滑らか",
+        "pelvis_tilt": "中間",
+        "muscle_density": 0.72,
+        "fat_percentage": 0.12,
+        "sweat_behavior": "腰から太腿にかけて光る",
+        "pose_tendency": ["腰を落とす", "膝を開く"],
+        "exposure_reaction": "RR_R2"
+      },
+      "shame_psychology": {
+        "baseline_shame_tolerance": 0.3,
+        "public_exposure_response": {
+          "mild": "真っ赤になって背を向ける",
+          "moderate": "声を詰まらせる",
+          "severe": "涙を堪えるように唇を噛む"
+        },
+        "voice_reaction": { "surprise": "短く叫ぶ", "endurance": "うめき声", "collapse": "半泣きで言葉を失う" },
+        "coping_behavior": ["周囲に八つ当たり", "物に当たる"]
+      },
+      "erotic_weakpoints": [
+        { "id": "EWP1", "zone": "臀部", "sensitivity": 0.9, "reaction": "軽く叩かれただけで跳ねる" },
+        { "id": "EWP2", "zone": "太腿裏", "sensitivity": 0.8, "reaction": "動けなくなる" }
+      ],
+      "team_role": {
+        "preferred_positions": [
+          { "pos": "side_A", "aptitude": 0.9, "reason": "スピードと反射が強み" },
+          { "pos": "hooker", "aptitude": 0.6, "reason": "体幹はまだ弱い" }
+        ],
+        "overall_strengths": ["敏捷性", "爆発力"],
+        "shame_focus": "表情の変化が顕著",
+        "rotation_comment": "恥ずかしがるほど観客に人気"
+      },
+      "emotion_arc": {
+        "intro_state": "挑発的で余裕の態度",
+        "mid_state": "露出事故でパニック",
+        "climax_state": "羞恥に耐えながらプレー続行",
+        "ending_state": "恥を笑い飛ばすようになる"
+      },
+      "visual_ref": { "attire": "ATTIRE-BB-RR-001", "pose_catalog": ["P-05"], "lighting": "stage warm", "camera_focus": "hip centered" }
+    },
+
+    {
+      "id_schema": { "char_id": "BREED-C003", "team": "Red Rumps", "rank": "R4", "season": "S1" },
+      "profile": {
+        "name": "相馬 岳",
+        "age": 29,
+        "height_cm": 188,
+        "weight_kg": 94,
+        "body_type": "重量型",
+        "skin_tone": "褐色",
+        "muscle_focus": ["肩", "背中", "尻"],
+        "hair": { "color": "黒", "style": "坊主" },
+        "eyes": { "color": "黒", "expression": "沈着冷静" }
+      },
+      "physical_features": {
+        "ass_shape": "広がり",
+        "ass_texture": "厚みがある",
+        "pelvis_tilt": "後傾",
+        "muscle_density": 0.9,
+        "fat_percentage": 0.13,
+        "sweat_behavior": "尻にほとんど汗をかかず乾いた光沢",
+        "pose_tendency": ["体重を後ろにかける"],
+        "exposure_reaction": "RR_R3"
+      },
+      "shame_psychology": {
+        "baseline_shame_tolerance": 0.8,
+        "public_exposure_response": {
+          "mild": "淡々と尻を直す",
+          "moderate": "眉をひそめて沈黙",
+          "severe": "わずかに苦笑"
+        },
+        "voice_reaction": { "surprise": "低く唸る", "endurance": "沈黙", "collapse": "小さくため息" },
+        "coping_behavior": ["無反応を装う", "他人の尻を見ることで平静を保つ"]
+      },
+      "erotic_weakpoints": [
+        { "id": "EWP1", "zone": "臀部", "sensitivity": 0.5, "reaction": "鈍い反応" }
+      ],
+      "team_role": {
+        "preferred_positions": [
+          { "pos": "left_prop", "aptitude": 0.95, "reason": "支える力が強く安定している" },
+          { "pos": "support_front", "aptitude": 0.8, "reason": "視野が広く対応力がある" }
+        ],
+        "overall_strengths": ["パワー", "冷静さ"],
+        "shame_focus": "他者との対比で光る",
+        "rotation_comment": "無表情ゆえに羞恥演出で重宝される"
+      },
+      "emotion_arc": {
+        "intro_state": "無表情で淡々と仕事をこなす",
+        "mid_state": "他者の羞恥に影響されて動揺",
+        "climax_state": "冷静を保ちながらも羞恥を受け入れる",
+        "ending_state": "感情をわずかに表に出すようになる"
+      },
+      "visual_ref": { "attire": "ATTIRE-BB-RR-001", "pose_catalog": ["P-11"], "lighting": "hard warm", "camera_focus": "low side" }
+    },
+
+    {
+      "id_schema": { "char_id": "BREED-C004", "team": "Red Rumps", "rank": "R4", "season": "S1" },
+      "profile": {
+        "name": "御子柴 迅",
+        "age": 25,
+        "height_cm": 179,
+        "weight_kg": 81,
+        "body_type": "細マッチョ",
+        "skin_tone": "小麦",
+        "muscle_focus": ["腹筋", "尻", "胸"],
+        "hair": { "color": "黒", "style": "長めセンターパート" },
+        "eyes": { "color": "黒", "expression": "伏し目がち" }
+      },
+      "physical_features": {
+        "ass_shape": "丸み",
+        "ass_texture": "柔らかい",
+        "pelvis_tilt": "中間",
+        "muscle_density": 0.68,
+        "fat_percentage": 0.11,
+        "sweat_behavior": "汗で尻に光沢が走る",
+        "pose_tendency": ["膝を閉じがち"],
+        "exposure_reaction": "RR_R4"
+      },
+      "shame_psychology": {
+        "baseline_shame_tolerance": 0.2,
+        "public_exposure_response": {
+          "mild": "体を縮めて隠す",
+          "moderate": "声が震える",
+          "severe": "涙をこらえる"
+        },
+        "voice_reaction": { "surprise": "息を詰まらせる", "endurance": "震え声", "collapse": "嗚咽" },
+        "coping_behavior": ["謝罪", "目を逸らす"]
+      },
+      "team_role": {
+        "preferred_positions": [
+          { "pos": "right_prop", "aptitude": 0.8, "reason": "バランス感覚が良い" },
+          { "pos": "side_B", "aptitude": 0.6, "reason": "接触を避ける傾向" }
+        ],
+        "overall_strengths": ["柔軟性", "反応速度"],
+        "shame_focus": "動揺の表情",
+        "rotation_comment": "視線に弱く羞恥演出が自然"
+      }
+    },
+
+    {
+      "id_schema": { "char_id": "BREED-C005", "team": "Red Rumps", "rank": "R4", "season": "S1" },
+      "profile": {
+        "name": "白瀬 岳斗",
+        "age": 31,
+        "height_cm": 183,
+        "weight_kg": 89,
+        "body_type": "厚胴型",
+        "skin_tone": "白",
+        "muscle_focus": ["尻", "肩", "腕"],
+        "hair": { "color": "銀灰", "style": "短髪" },
+        "eyes": { "color": "灰", "expression": "無感情" }
+      },
+      "physical_features": {
+        "ass_shape": "盛り上がり",
+        "ass_texture": "固い",
+        "pelvis_tilt": "後傾",
+        "muscle_density": 0.88,
+        "fat_percentage": 0.1,
+        "sweat_behavior": "尻より首筋に汗が浮く",
+        "pose_tendency": ["直立", "無駄な動きがない"],
+        "exposure_reaction": "RR_R5"
+      },
+      "shame_psychology": {
+        "baseline_shame_tolerance": 0.9,
+        "public_exposure_response": {
+          "mild": "何も反応しない",
+          "moderate": "僅かに息を吐く",
+          "severe": "表情を動かさないまま続ける"
+        },
+        "voice_reaction": { "surprise": "無音", "endurance": "静かな息", "collapse": "小さな溜息" },
+        "coping_behavior": ["沈黙", "冷静を保つ"]
+      },
+      "team_role": {
+        "preferred_positions": [
+          { "pos": "back_cover", "aptitude": 0.95, "reason": "俯瞰と冷静さが武器" }
+        ],
+        "overall_strengths": ["統率力", "安定感"],
+        "shame_focus": "反応の薄さが逆に人気",
+        "rotation_comment": "無反応ゆえにRPIが安定"
+      }
+    },
+
+    {
+      "id_schema": { "char_id": "BREED-C006", "team": "Red Rumps", "rank": "R4", "season": "S1" },
+      "profile": {
+        "name": "中園 昴",
+        "age": 22,
+        "height_cm": 170,
+        "weight_kg": 70,
+        "body_type": "小柄筋質",
+        "skin_tone": "小麦",
+        "muscle_focus": ["脚", "尻", "腹"],
+        "hair": { "color": "黒", "style": "前下がりショート" },
+        "eyes": { "color": "茶", "expression": "不安げ" }
+      },
+      "physical_features": {
+        "ass_shape": "小ぶりで丸い",
+        "ass_texture": "柔らかい",
+        "pelvis_tilt": "前傾",
+        "muscle_density": 0.65,
+        "fat_percentage": 0.14,
+        "sweat_behavior": "脚と尻に帯状の汗跡",
+        "pose_tendency": ["膝を閉じる", "腰を引く"],
+        "exposure_reaction": "RR_R6"
+      },
+      "shame_psychology": {
+        "baseline_shame_tolerance": 0.25,
+        "public_exposure_response": {
+          "mild": "顔を真っ赤にして後ずさる",
+          "moderate": "声を上げて謝る",
+          "severe": "その場にしゃがみ込む"
+        },
+        "voice_reaction": { "surprise": "高い声", "endurance": "震える", "collapse": "半泣き" },
+        "coping_behavior": ["逃げる", "視線を避ける"]
+      },
+      "team_role": {
+        "preferred_positions": [
+          { "pos": "side_B", "aptitude": 0.85, "reason": "素早い切り返しが得意" },
+          { "pos": "hooker", "aptitude": 0.5, "reason": "力負けしやすい" }
+        ],
+        "overall_strengths": ["反応速度", "瞬発力"],
+        "shame_focus": "動揺時の反応がかわいらしい",
+        "rotation_comment": "羞恥演出でマスコット的人気"
+      }
+    },
+
+    {
+      "id_schema": { "char_id": "BREED-C007", "team": "Red Rumps", "rank": "R4", "season": "S1" },
+      "profile": {
+        "name": "久遠 慶",
+        "age": 28,
+        "height_cm": 185,
+        "weight_kg": 84,
+        "body_type": "均整型",
+        "skin_tone": "褐色",
+        "muscle_focus": ["背中", "尻", "胸"],
+        "hair": { "color": "黒", "style": "オールバック" },
+        "eyes": { "color": "琥珀", "expression": "自信に満ちた笑み" }
+        },
+        "physical_features": {
+            "ass_shape": "張りのある盛り上がり",
+            "ass_texture": "滑らか",
+            "pelvis_tilt": "中間",
+            "muscle_density": 0.78,
+            "fat_percentage": 0.1,
+            "sweat_behavior": "腰から背中にかけて光沢が強い",
+            "pose_tendency": ["胸を張る", "尻を突き出す"],
+            "exposure_reaction": "RR_R7"
+        },
+        "shame_psychology": {
+        "baseline_shame_tolerance": 0.55,
+            "public_exposure_response": {
+            "mild": "笑って受け流す",
+            "moderate": "冗談を言って場を和ませる",
+            "severe": "照れ笑いしながらポーズを取る"
+            },
+        "voice_reaction": { "surprise": "短い笑い", "endurance": "低い声で冗談", "collapse": "息混じりの笑い" },
+        "coping_behavior": ["笑って返す", "観客を煽る"]
+        },
+        "team_role": {
+            "preferred_positions": [
+                { "pos": "support_front", "aptitude": 0.85, "reason": "ポージングが得意で見映えする" },
+                { "pos": "side_A", "aptitude": 0.75, "reason": "動きに柔軟性がある" }
+            ],
+        "overall_strengths": ["表現力", "バランス感覚"],
+        "shame_focus": "笑顔と尻の対比",
+        "rotation_comment": "観衆との掛け合いを最も楽しむタイプ"
+        }
+    }
+    ]
+}

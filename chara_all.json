@@ -1,0 +1,312 @@
+{
+  "team_name": "St. Ark Bulls",
+  "total_members": 30,
+  "rank_distribution": {
+    "R1": 1,
+    "R2": 5,
+    "R3": 9,
+    "R4": 15
+  },
+  "members": [
+    {
+      "id": 1,
+      "name": "山城 剛",
+      "age": 22,
+      "position": "No.8",
+      "rank": "R1",
+      "role": "主将・王（柱）",
+      "personality": "寡黙・冷徹・理性的。支配者としての矜持を持つ。",
+      "background": "かつてR4出身。すべての奉仕儀を経て頂点に立つ。"
+    },
+    {
+      "id": 2,
+      "name": "近衛 涼",
+      "age": 21,
+      "position": "フルバック",
+      "rank": "R2",
+      "role": "副将・記録係",
+      "personality": "冷静沈着で忠誠心が強い。秩序を何より重んじる。",
+      "background": "剛の右腕として制度維持を担当。監督にも信頼が厚い。"
+    },
+    {
+      "id": 3,
+      "name": "東堂 渉",
+      "age": 21,
+      "position": "ロック",
+      "rank": "R2",
+      "role": "練習統括リーダー",
+      "personality": "厳格で筋骨隆々。言葉少なだが目で語るタイプ。",
+      "background": "体罰文化を正当化する古参。剛の冷静さに惹かれる。"
+    },
+    {
+      "id": 4,
+      "name": "佐原 慎吾",
+      "age": 22,
+      "position": "スタンドオフ",
+      "rank": "R2",
+      "role": "戦術参謀",
+      "personality": "知略家。敵味方を俯瞰する観察者。",
+      "background": "制度の合理性を信奉。監督の意を最も理解する存在。"
+    },
+    {
+      "id": 5,
+      "name": "武藤 一真",
+      "age": 20,
+      "position": "プロップ",
+      "rank": "R2",
+      "role": "奉仕指導員",
+      "personality": "豪放で面倒見が良い。表向き兄貴分、裏では支配者的。",
+      "background": "R4の頃から奉仕訓練に熱心で、昇格後は指導係を任される。"
+    },
+    {
+      "id": 6,
+      "name": "岸田 啓",
+      "age": 19,
+      "position": "センター",
+      "rank": "R2",
+      "role": "精神統制係",
+      "personality": "静かな圧を持つ青年。目線で支配するタイプ。",
+      "background": "R3昇格時に剛に認められ、以後忠誠を誓う。"
+    },
+    {
+      "id": 7,
+      "name": "木村 慶",
+      "age": 20,
+      "position": "スクラムハーフ",
+      "rank": "R3",
+      "role": "主将同期／対抗心持ち",
+      "personality": "感情的で直情型。理屈よりも感覚で動く。",
+      "background": "剛とは旧友。昇格のたび距離と感情が揺れる。"
+    },
+    {
+      "id": 8,
+      "name": "日下 翔",
+      "age": 20,
+      "position": "ウイング",
+      "rank": "R3",
+      "role": "情報伝達係",
+      "personality": "朗らかで愛想がよく、ムードメーカー。",
+      "background": "奉仕の場では緊張を和らげる潤滑剤的存在。"
+    },
+    {
+      "id": 9,
+      "name": "今泉 隼人",
+      "age": 21,
+      "position": "フランカー",
+      "rank": "R3",
+      "role": "副務・安全管理係",
+      "personality": "合理的で冷静。危険行為を嫌うバランサー。",
+      "background": "R2を目指すが感情面の未熟さが足枷となっている。"
+    },
+    {
+      "id": 10,
+      "name": "榊原 悠",
+      "age": 19,
+      "position": "ロック",
+      "rank": "R3",
+      "role": "奉仕訓練補佐",
+      "personality": "几帳面。ルール遵守にこだわる完璧主義者。",
+      "background": "奉仕動作を美学として研究している。"
+    },
+    {
+      "id": 11,
+      "name": "神谷 迅",
+      "age": 20,
+      "position": "ナンバーエイト",
+      "rank": "R3",
+      "role": "第二エース候補",
+      "personality": "プライドが高く、王を超えたいという野心を持つ。",
+      "background": "R1昇格を狙う野心家。剛を“倒すべき壁”と認識している。"
+    },
+    {
+      "id": 12,
+      "name": "岡部 拓海",
+      "age": 18,
+      "position": "フルバック",
+      "rank": "R3",
+      "role": "新人昇格者",
+      "personality": "純粋で直向き。やや内向的。",
+      "background": "R4から初の早期昇格。英雄視されている。"
+    },
+    {
+      "id": 13,
+      "name": "本間 篤",
+      "age": 19,
+      "position": "プロップ",
+      "rank": "R3",
+      "role": "練習隊長",
+      "personality": "豪胆で声が大きい。周囲を引っ張る兄貴肌。",
+      "background": "R4出身の実力者。剛に恩義を感じている。"
+    },
+    {
+      "id": 14,
+      "name": "市川 颯真",
+      "age": 20,
+      "position": "センター",
+      "rank": "R3",
+      "role": "戦術補佐",
+      "personality": "頭脳派。冷静に状況を読む。",
+      "background": "奉仕よりも戦術研究に興味を持つ異端。"
+    },
+    {
+      "id": 15,
+      "name": "佐伯 蓮",
+      "age": 18,
+      "position": "ウイング",
+      "rank": "R3",
+      "role": "奉仕演武の美担当",
+      "personality": "優美な所作で評判。自覚的ナルシスト。",
+      "background": "奉納演武の見本モデルを務める。"
+    },
+    {
+      "id": 16,
+      "name": "若林 遼",
+      "age": 18,
+      "position": "プロップ",
+      "rank": "R4",
+      "role": "新人・忠犬型",
+      "personality": "素直で純真。奉仕に誇りを持ち始める。",
+      "background": "剛に憧れ、選ばれることを夢見る。"
+    },
+    {
+      "id": 17,
+      "name": "杉浦 航",
+      "age": 19,
+      "position": "フランカー",
+      "rank": "R4",
+      "role": "反骨の奉仕者",
+      "personality": "荒々しく反抗的。感情が行動に出るタイプ。",
+      "background": "度重なる罰則で精神的に鍛えられつつある。"
+    },
+    {
+      "id": 18,
+      "name": "三島 勇",
+      "age": 18,
+      "position": "ロック",
+      "rank": "R4",
+      "role": "力仕事要員",
+      "personality": "無口で実直。言葉より行動で示す。",
+      "background": "奉仕よりもスクラムの技で評価される。"
+    },
+    {
+      "id": 19,
+      "name": "内田 翔平",
+      "age": 19,
+      "position": "スタンドオフ",
+      "rank": "R4",
+      "role": "評価対象",
+      "personality": "緊張しやすく、失敗を恐れるタイプ。",
+      "background": "制度の圧に耐えきれずR4に留まる。"
+    },
+    {
+      "id": 20,
+      "name": "森田 洋介",
+      "age": 18,
+      "position": "フッカー",
+      "rank": "R4",
+      "role": "洗身係",
+      "personality": "几帳面で温厚。几帳面な奉仕姿勢。",
+      "background": "小柄だが手際の良さで上層から好かれている。"
+    },
+    {
+      "id": 21,
+      "name": "小田桐 勇太",
+      "age": 19,
+      "position": "ウイング",
+      "rank": "R4",
+      "role": "補助奉仕員",
+      "personality": "明るく場を和ませるムードメーカー。",
+      "background": "練習中の事故で昇格を逃した過去がある。"
+    },
+    {
+      "id": 22,
+      "name": "黒川 慶人",
+      "age": 20,
+      "position": "センター",
+      "rank": "R4",
+      "role": "観察者",
+      "personality": "冷静で皮肉屋。周囲を俯瞰するタイプ。",
+      "background": "自らR4に残り、制度を観察している。"
+    },
+    {
+      "id": 23,
+      "name": "中井 豪",
+      "age": 19,
+      "position": "ロック",
+      "rank": "R4",
+      "role": "訓練補佐",
+      "personality": "素直で努力家。",
+      "background": "下級生の面倒を見ながらも自身は昇格できず苦悩。"
+    },
+    {
+      "id": 24,
+      "name": "藤堂 亮",
+      "age": 18,
+      "position": "プロップ",
+      "rank": "R4",
+      "role": "補欠要員",
+      "personality": "不器用で無骨。実直。",
+      "background": "監督に潜在力を見込まれている。"
+    },
+    {
+      "id": 25,
+      "name": "橋本 匠",
+      "age": 18,
+      "position": "フランカー",
+      "rank": "R4",
+      "role": "整備係",
+      "personality": "要領が良い。仕事が早い。",
+      "background": "自分の出世よりチーム全体を優先するタイプ。"
+    },
+    {
+      "id": 26,
+      "name": "松永 諒",
+      "age": 18,
+      "position": "ウイング",
+      "rank": "R4",
+      "role": "奉納演武候補",
+      "personality": "表現力豊かで、演武を芸術と捉える。",
+      "background": "剛の前で舞うことを夢見る。"
+    },
+    {
+      "id": 27,
+      "name": "長谷川 慶",
+      "age": 20,
+      "position": "スクラムハーフ",
+      "rank": "R4",
+      "role": "評価訓練生",
+      "personality": "几帳面で観察好き。",
+      "background": "記録係への憧れを持つ。"
+    },
+    {
+      "id": 28,
+      "name": "浅倉 誠",
+      "age": 19,
+      "position": "ロック",
+      "rank": "R4",
+      "role": "重労働担当",
+      "personality": "粗暴だが忠誠心が強い。",
+      "background": "剛に拾われ救われた過去を持つ。"
+    },
+    {
+      "id": 29,
+      "name": "新堂 隼",
+      "age": 18,
+      "position": "ウイング",
+      "rank": "R4",
+      "role": "奉仕新人",
+      "personality": "明るく人懐こい。好奇心旺盛。",
+      "background": "入部初週から制度に順応。"
+    },
+    {
+      "id": 30,
+      "name": "白石 悠真",
+      "age": 18,
+      "position": "フルバック",
+      "rank": "R4",
+      "role": "最年少補助員",
+      "personality": "幼く純粋。皆から可愛がられるマスコット的存在。",
+      "background": "初期奉仕姿勢のモデルとして扱われる。"
+    }
+  ]
+}

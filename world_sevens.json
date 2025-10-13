@@ -1,0 +1,271 @@
+{
+  "world_meta": {
+    "world_name": "Sevens World",
+    "series": "Bulls Order Universe",
+    "version": "1.0.0",
+    "mode": {
+      "type": "entertainment",
+      "note": "スポーツ・アイドル・ビジネスが融合した国際的エンタメ競技世界。"
+    },
+    "summary": "Sevens（7人制ラグビー）は、現代における最も視聴者数の多い競技型アイドルエンターテインメント。世界各地のプロチームが所属し、年間ランキングとスポンサー契約によって経済が動く。",
+    "keywords": ["Sevens", "アイドルスポーツ", "国際リーグ", "視聴経済", "アークブルズ"]
+  },
+
+  "Institution": {
+    "name": "World Sevens Federation (WSF)",
+    "concept": "Sevens競技を統括する国際協会。フェアプレー・魅せるプレー・映像美を三原則とする。",
+    "subdivisions": {
+      "LeagueDivision": "地域リーグ制（Asia / Europe / America）を運営。",
+      "AuditCommittee": "パフォーマンス倫理審査を担当。",
+      "SponsorshipBoard": "スポンサー契約・ブランド連携の審査を行う。"
+    },
+    "evaluation": {
+      "metrics": ["SkillIndex", "CharismaScore", "VisualImpact"],
+      "notes": "競技実績よりも視聴パフォーマンスと広告適性が重要視される。"
+    }
+  },
+
+  "Society": {
+    "concept": "Sevensは単なるスポーツではなく、エンタメ産業として成立している。選手はアイドルであり、商品。",
+    "subcategories": {
+      "FanCulture": "『推し選手』が存在し、SNS課金・投げ銭が普及。",
+      "MediaIntegration": "試合中継・ドキュメンタリー・ファッション誌連動が常態化。",
+      "ScandalMechanism": "不祥事や炎上が視聴率を上げる側面もある。"
+    }
+  },
+
+  "WSF_League": {
+    "version": "5.0",
+    "summary": "WSF（World Sevens Federation）は三大リーグ制。21チームが視聴経済の象徴として、国家・文化・思想・ブランドを背負い競い合う。すべての試合は“競技・演出・資本”の三位一体で構築される。",
+    "leagues": {
+      "Asia-Pacific League": {
+        "theme": "奉仕・精神性・映像美",
+        "description": "礼節と演出の均衡を重んじる東洋圏。精神修行のようなストイシズムが人気を集める。",
+        "teams": [
+          {
+            "id": "AP1",
+            "name": "Ark Bulls",
+            "country": "Japan",
+            "motto": "Rebirth through Service",
+            "aesthetic": "再生・沈黙・儀式美",
+            "sponsor": "Bulls Order Holdings",
+            "identity": "社会的再挑戦者による奉仕的プレー。精神儀礼的演出が特徴。"
+          },
+          {
+            "id": "AP2",
+            "name": "Tokyo Halo",
+            "country": "Japan",
+            "motto": "Light Above All",
+            "aesthetic": "透明感・完全主義・清潔演出",
+            "sponsor": "Shinsei Media",
+            "identity": "都市アイドル型チーム。映像演出の完成度でリーグ最高評価。"
+          },
+          {
+            "id": "AP3",
+            "name": "Seoul Voltage",
+            "country": "Korea",
+            "motto": "Sync and Shock",
+            "aesthetic": "群舞美・統率・衝撃演出",
+            "sponsor": "HyunOne Group",
+            "identity": "K-POP文化を競技に転化。視覚的統一が強み。"
+          },
+          {
+            "id": "AP4",
+            "name": "Shanghai Vows",
+            "country": "China",
+            "motto": "Discipline is Desire",
+            "aesthetic": "統制・理性・光沢",
+            "sponsor": "Zhen Industrial Design",
+            "identity": "国家的プロジェクト。AIによる最適化された集団動作が魅力。"
+          },
+          {
+            "id": "AP5",
+            "name": "Bangkok Virtue",
+            "country": "Thailand",
+            "motto": "Grace in Devotion",
+            "aesthetic": "奉仕的優雅・宗教的演出",
+            "sponsor": "Lotus Vision",
+            "identity": "慈善活動と精神修行を演出要素に変換。"
+          },
+          {
+            "id": "AP6",
+            "name": "Sydney Crescents",
+            "country": "Australia",
+            "motto": "Freedom in Form",
+            "aesthetic": "解放・肉体美・陽性光線",
+            "sponsor": "Qantas Media",
+            "identity": "屋外演出を重視した自由主義チーム。"
+          },
+          {
+            "id": "AP7",
+            "name": "Auckland Tide",
+            "country": "New Zealand",
+            "motto": "Flow without Fear",
+            "aesthetic": "流動・静謐・精神均衡",
+            "sponsor": "Blue Horizon Trust",
+            "identity": "自然と一体化する瞑想的プレースタイル。"
+          }
+        ]
+      },
+
+      "America League": {
+        "theme": "資本・熱狂・消費",
+        "description": "視聴者参加型の完全メディア競技圏。演出・人気・課金が実力と同義。",
+        "teams": [
+          {
+            "id": "AM1",
+            "name": "New York Phantoms",
+            "country": "USA",
+            "motto": "Fame is the Field",
+            "aesthetic": "虚栄・光沢・リアリティショー",
+            "sponsor": "Meta Sports Network",
+            "identity": "AI人気スコアで選手入替。視聴者が試合進行を決定。"
+          },
+          {
+            "id": "AM2",
+            "name": "Los Angeles Pulse",
+            "country": "USA",
+            "motto": "Heart in Motion",
+            "aesthetic": "明朗・筋肉美・映像演出",
+            "sponsor": "MotionOne Studios",
+            "identity": "映画的照明演出とSNS連動で世界的人気。"
+          },
+          {
+            "id": "AM3",
+            "name": "Toronto Aces",
+            "country": "Canada",
+            "motto": "Calm is Strength",
+            "aesthetic": "静的統一・冷静戦略",
+            "sponsor": "Arctiq Dynamics",
+            "identity": "チーム全員が戦略家。クールな統制で人気。"
+          },
+          {
+            "id": "AM4",
+            "name": "Mexico Jaguars",
+            "country": "Mexico",
+            "motto": "Wild Honor",
+            "aesthetic": "民族的祝祭・仮面・原色演出",
+            "sponsor": "Televisa Arena",
+            "identity": "伝統儀礼とラグビーを融合。観客熱狂率最高。"
+          },
+          {
+            "id": "AM5",
+            "name": "Buenos Aires Roar",
+            "country": "Argentina",
+            "motto": "Every Fall is a Rise",
+            "aesthetic": "情熱・逆境・市民演劇",
+            "sponsor": "LATAM Live Arena",
+            "identity": "労働階級出身者中心。敗北もドラマ化。"
+          },
+          {
+            "id": "AM6",
+            "name": "Santiago Sparks",
+            "country": "Chile",
+            "motto": "Burn the Horizon",
+            "aesthetic": "闘志・破壊・赤熱演出",
+            "sponsor": "Andes Power Co.",
+            "identity": "激しい試合展開で人気。ファン層は熱狂的。"
+          },
+          {
+            "id": "AM7",
+            "name": "Rio Striders",
+            "country": "Brazil",
+            "motto": "Dance the Field",
+            "aesthetic": "音楽・肉体・祝祭",
+            "sponsor": "Carnaval Entertainment",
+            "identity": "ダンスとスポーツの融合。演出重視チーム。"
+          }
+        ]
+      },
+
+      "Europa-Africa League": {
+        "theme": "伝統・儀式・構築美",
+        "description": "古典的文化をベースに儀式化された競技美を追求する圏域。観客は“芸術を見る”感覚で試合を観戦する。",
+        "teams": [
+          {
+            "id": "EA1",
+            "name": "London Haloists",
+            "country": "UK",
+            "motto": "Honor through Light",
+            "aesthetic": "伝統・光演出・詩的美徳",
+            "sponsor": "BBC Vision",
+            "identity": "古典様式を重んじつつ現代照明を導入。"
+          },
+          {
+            "id": "EA2",
+            "name": "Paris Mirage",
+            "country": "France",
+            "motto": "Elegance of Illusion",
+            "aesthetic": "幻想・耽美・印象操作",
+            "sponsor": "Maison Saint-Clair",
+            "identity": "美を演じる虚構主義。試合は演劇そのもの。"
+          },
+          {
+            "id": "EA3",
+            "name": "Berlin Commanders",
+            "country": "Germany",
+            "motto": "Order is Art",
+            "aesthetic": "統率・構築・冷徹",
+            "sponsor": "Vektor Systems",
+            "identity": "人間性より構造美。訓練演出に定評あり。"
+          },
+          {
+            "id": "EA4",
+            "name": "Rome Doves",
+            "country": "Italy",
+            "motto": "Peace through Struggle",
+            "aesthetic": "古典美・祈り・受難",
+            "sponsor": "Medici Vision",
+            "identity": "宗教儀式的演出で観客を黙らせる荘厳チーム。"
+          },
+          {
+            "id": "EA5",
+            "name": "Cairo Sons",
+            "country": "Egypt",
+            "motto": "Eternity through Motion",
+            "aesthetic": "神聖・構築・光線演出",
+            "sponsor": "Nile Studios",
+            "identity": "古代建築と最新映像の融合。"
+          },
+          {
+            "id": "EA6",
+            "name": "Cape Horns",
+            "country": "South Africa",
+            "motto": "Strength in Shadows",
+            "aesthetic": "筋力・闘争・儀礼的闇",
+            "sponsor": "MTN Vision",
+            "identity": "暗闇と光を対比させる演出。"
+          },
+          {
+            "id": "EA7",
+            "name": "Lagos Nova",
+            "country": "Nigeria",
+            "motto": "Rhythm is Power",
+            "aesthetic": "音楽・反骨・祝祭文化",
+            "sponsor": "EchoSound Africa",
+            "identity": "ストリートリズムと競技融合。民衆的魅力が強い。"
+          }
+        ]
+      }
+    }
+  },
+
+  "Aesthetic": {
+    "concept": "映像時代に最適化されたスポーツ。",
+    "elements": {
+      "CameraWork": "ドローン・リプレイ・AI分析を組み合わせた立体的演出。",
+      "MusicIntegration": "試合に合わせてBGMが変化。選手のテーマ曲が存在。",
+      "Ceremony": "入場・退場もショー化。観客参加型演出が主流。"
+    },
+    "tone": "華やかだが管理されすぎた“近未来スポーツショー”。"
+  },
+
+  "HiddenConnections": {
+    "concept": "表向きは純粋なスポーツだが、裏でBulls Order社による『Breedシステム』との接点が存在する。",
+    "rumors": [
+      "一部の選手が突然姿を消す（R5降格者の裏移送）",
+      "Ark Bullsだけは協会登録の経路が不明",
+      "Breed CenterがSevens選手の“再教育施設”として機能しているとの噂"
+    ]
+  }
+}
