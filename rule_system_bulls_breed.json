@@ -169,6 +169,21 @@
     }
 
     ],
+  
+    "additional_rules": {
+      "R4_tenure_limit": {
+        "max_years": 3,
+        "description": "R4個体は最大3年間のみ在籍可能。期間満了後は自動的にR3昇格候補または除籍処理となる。"
+      },
+      "team_reassignment_rule": {
+        "restriction": "同一チームへの再所属禁止",
+        "description": "R4在籍経験者は、同一カラーのチームに再度登録することはできない。ブランドリセットの観点から、在籍チームは履歴的に固定される。"
+      },
+      "rationale": {
+        "purpose": "羞恥・奉仕価値の循環維持と商品寿命の制御。",
+        "effect": "各チームのメンバーは3年ごとに総入れ替えとなり、制度の停滞を防ぐ。"
+      }
+    },
 
     "exceptions": {
       "override_conditions": "R2以上の命令により罰・降格を延期または免除可能。",
