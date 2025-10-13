@@ -1,0 +1,17 @@
+# キャッシュ・生成物
+__pycache__/
+*.pyc
+dist/
+build/
+
+# 環境ファイル
+.env
+
+# OS・エディタ関連
+.DS_Store
+Thumbs.db
+.vscode/
+
+# GPT生成系ファイル（例）
+*_generated.json
+*_simulated.json
