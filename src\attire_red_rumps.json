@@ -1,0 +1,79 @@
+{
+  "attire_meta": {
+    "attire_id": "ATTIRE-BB-RR-001",
+    "world": "Bulls Breed",
+    "version": "1.0.0",
+    "last_updated": "2025-10-12",
+    "designer": "GPT Design Unit",
+    "rank_restriction": "R1〜R5",
+    "category": "default",
+    "availability": "public",
+    "keywords": [
+      "競技用",
+      "チームユニフォーム",
+      "情熱",
+      "誇示",
+      "ステージ演出"
+    ]
+  },
+  "summary": {
+    "name": "Red Rumps Official Uniform",
+    "description": "Red Rumps の公式競技ユニフォーム。深紅と黒を基調とし、筋肉の輪郭と動きを強調する構造。背面と腰のカッティングが独特で、チームの象徴である\"情熱\"と\"誇示\"を視覚的に表現する。",
+    "context": [
+      "試合",
+      "訓練",
+      "公式撮影",
+      "パフォーマンス"
+    ]
+  },
+  "design": {
+    "top": "肩から背中にかけて深紅のコンプレッションジャージ。腹部は通気メッシュ構造。",
+    "bottom": "ハイレグショートパンツ型。体幹ラインを強調する縫製とサイドメッシュ。",
+    "footwear": "赤黒ツートンのショートスパイク。足首部にマット仕上げのストラップ。",
+    "accessories": [
+      "黒レザーベルト（チームエンブレム付き）",
+      "首元にチョーカー型タグ（番号入り）"
+    ],
+    "fit": "tight",
+    "exposure_level": 0.65,
+    "texture": "光沢スパンデックス＋メッシュ混"
+  },
+  "materials": [
+    "ストレッチスパンデックス",
+    "高通気ポリエステル",
+    "レザーストラップ素材"
+  ],
+  "color_scheme": {
+    "primary": "#A80000",
+    "secondary": "#7A0000",
+    "accent": "#FFC4B3"
+  },
+  "symbolism": {
+    "cultural_note": "Red Rumps は\"恥を力に変える\"理念を象徴するチーム。深紅は情熱、黒は秩序と隷属を示す。腰部の開いたカッティングは\"曝け出す覚悟\"を象徴。",
+    "rank_symbol": "腰ベルト裏面に刺繍された階層番号。上位ほど金糸が多い。",
+    "humiliation_factor": 0.7,
+    "authority_factor": 0.5
+  },
+  "visual_ref": {
+    "image_prompt": "Flat vector sports uniform of the Red Rumps rugby team. Deep red compression top with black mesh panels, short red trunks emphasizing hip contour, black and gold belt, and red-black spiked shoes. Studio lighting with warm tone, focus on strength and motion.",
+    "negative_prompt": "nudity, explicit content, sexual act, minors, gore, watermark, text overlay",
+    "pose_catalog": [
+      "R4_pose:P-05",
+      "R4_pose:P-11"
+    ],
+    "lighting": "warm stage light with back spotlight"
+  },
+  "gimmick": {
+    "name": "LUU構造（ラグパン分割設計）",
+    "type": "forced-exposure-via-design",
+    "description": "スクラムなどの密着時に、パンツの側面や股下のテンションによって自然に分解・ズレが発生する設計。固定はマジックテープ式で、一定以上の引き圧で自動解除される。プレイヤーは本気で耐えているが、ほぼ毎回尻が出る。",
+    "underlayer": "専用ケツワレサポーター（臀部中央開放構造）。ラグパンが脱げた際にも羞恥が最大化される設計。",
+    "trigger_situations": [
+      "スクラム形成",
+      "背後からのタックル",
+      "足を広げて踏ん張った時"
+    ],
+    "recovery_rules": "プレイ中はズレたまま競技を続行。観衆からの"応援"が羞恥強調要因となる。",
+    "camera_behavior": "尻ズーム・スロー・AI追尾あり。実況は事故として説明しつつ、繰り返し再生。"
+  }
+}
