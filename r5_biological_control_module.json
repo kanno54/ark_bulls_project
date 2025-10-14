@@ -71,7 +71,7 @@
     "default_state": "禁欲制御下（貞操帯ユニットによるロック）",
     "allowed_contexts": {
       "zone_I": "課金アイテムによる快感刺激",
-      "zone_U4": "奉仕技能訓練として性感開発が許可される（専属者のみ）"
+      "zone_U4": "奉仕技能訓練として性感開発が許可される"
     },
     "incidents": {
       "unintended_arousal": {
@@ -97,8 +97,8 @@
     "dream_and_sleep_monitoring": {
       "sleep_hours": "23:00〜05:30",
       "dream_logging": true,
-      "management": "脳波ログ取得・発声違反記録",
-      "impact": "異常夢＝羞恥指数変動＋再教育対象"
+      "management": "脳波ログ取得・発声違反記録・夢精違反記録",
+      "impact": "夢精＝禁欲管理プロトコル上のペナルティ対象"
     }
   },
 
