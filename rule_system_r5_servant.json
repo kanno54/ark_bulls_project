@@ -5,6 +5,11 @@
     "origin": "Bulls BreedにおけるR4奉仕層からの降格者を管理・消耗し、制度の象徴的土台として活用するために設立された。",
     "purpose": "羞恥・労働・禁欲を通して奉仕制度の階層秩序を可視化・永続化する。R5は最下層として奉仕労働と晒しを担当し、年末には競技儀式を通じて最も壊れた者を決定する。",
     "applicable_scope": "Bulls BreedにおけるR4降格者。1シーズンに1名ずつ追加され、最大4名で1年を構成する。",
+    "modules": {
+    "uniform": "r5_daily_equipment_spec.json",
+    "duties": "r5_zone_task_definitions.json",
+    "biological_control": "r5_biological_control_module.json"
+    }
     "structure": {
       "organization": [
         {
