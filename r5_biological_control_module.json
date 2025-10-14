@@ -1,0 +1,117 @@
+{
+  "module_name": "r5_biological_control_module_v1",
+  "version": "1.0",
+  "category": "R5生理制御・羞恥制度統合仕様",
+  "summary": "R5奉仕個体の生理現象・生活行為・羞恥反応を制度的に定義し、日常業務と心理構造に統合するモジュール。",
+  "origin_reference": [
+    "rule_system_r5_servant.json",
+    "r5_daily_equipment_spec_v1.json",
+    "world_bulls_breed_exploitation.json"
+  ],
+
+  "speech_control": {
+    "policy": "原則沈黙。ただし制度的義務発話は強制される。",
+    "mandatory_speech_events": [
+      {
+        "event": "業務開始",
+        "script": "個体C01、Zone U1業務を開始いたします。"
+      },
+      {
+        "event": "業務終了",
+        "script": "業務完了を報告します。"
+      },
+      {
+        "event": "洗身申請",
+        "script": "C01、洗身を申請します。器具解除をお願いします。"
+      },
+      {
+        "event": "禁欲宣言",
+        "script": "本個体は本日も禁欲に努め、制度に忠実でありたいと願います。"
+      }
+    ],
+    "logging": {
+      "recorded_by": "チョーカー内蔵音声センサ",
+      "replayable": true,
+      "impact_on_score": "羞恥指数に加点"
+    }
+  },
+
+  "hair_and_skin_policy": {
+    "head_hair": {
+      "status": "全除去（週1回バリカン＋薬剤）",
+      "management": "Zone Sで自動処理",
+      "symbolism": "個性の剥奪・記号化の象徴"
+    },
+    "body_hair": {
+      "status": "常時無毛（除毛コーティング＋定期洗浄）"
+    },
+    "skin_management": {
+      "cleanliness_index": true,
+      "measured_by": "洗身時センサー",
+      "impact_on_role": "UFSスコアに影響"
+    }
+  },
+
+  "sanitation_cycle": {
+    "zone": "Zone S",
+    "type": "自動洗身ブース（立位・非温水）",
+    "schedule": "毎日22:00〜23:00",
+    "procedure": [
+      "器具解除申請（発声必須）",
+      "洗身ブース自動ロック",
+      "洗浄液＋ブラシミストによる全身清拭",
+      "皮膚・粘膜・器具部位全て洗浄対象",
+      "羞恥反応ログを自動記録"
+    ],
+    "viewer_exposure": "非公開（AIモニタ記録のみ）",
+    "tokenized_segments": ["【E1】", "【E2】"]
+  },
+
+  "sexual_response_policy": {
+    "default_state": "禁欲制御下（貞操帯ユニットによるロック）",
+    "allowed_contexts": {
+      "zone_I": "課金アイテムによる快感刺激",
+      "zone_U4": "奉仕技能訓練として性感開発が許可される（専属者のみ）"
+    },
+    "incidents": {
+      "unintended_arousal": {
+        "impact": "羞恥指数加算＋報告義務",
+        "interpretation": "制度制御の失敗として罰点対象"
+      }
+    },
+    "tokens": ["【E3】", "【E4】"]
+  },
+
+  "biological_monitoring": {
+    "vital_signs": {
+      "measured": ["心拍", "呼吸", "体温", "発汗"],
+      "method": "チョーカー・リストバンドによる常時計測",
+      "usage": "羞恥スコア・業務割当調整・体調管理"
+    },
+    "excretion_cycle": {
+      "zone": "U0",
+      "schedule": ["06:00", "20:00"],
+      "management": "自動排泄器具誘導・脱着・再装着補助あり",
+      "psychology": "制度による排出＝屈服の象徴"
+    },
+    "dream_and_sleep_monitoring": {
+      "sleep_hours": "23:00〜05:30",
+      "dream_logging": true,
+      "management": "脳波ログ取得・発声違反記録",
+      "impact": "異常夢＝羞恥指数変動＋再教育対象"
+    }
+  },
+
+  "emotional_output_policy": {
+    "facial_and_vocal": {
+      "detected_by": "AIカメラ・音声センサー",
+      "events": ["涙", "笑い", "呻き"],
+      "impact": "羞恥スコア反映＋場合により観衆共有（抜粋ログ）"
+    }
+  },
+
+  "philosophical_note": {
+    "core_concept": "身体は制度に奉仕する器官であり、全ての生理現象は羞恥化の対象となる。",
+    "quotable_line": "夢を見ること、汗をかくこと、震えること。そのすべてが、彼らの管理下にある。"
+  }
+}
