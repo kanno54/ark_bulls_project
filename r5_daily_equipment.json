@@ -1,0 +1,120 @@
+{
+  "module_name": "r5_daily_equipment_spec_v1",
+  "version": "1.0",
+  "category": "R5標準装着仕様 / 拘束服・記録装具",
+  "origin_reference": ["rule_system_r5_servant.json", "world_bulls_breed_exploitation.json"],
+  "summary": "R5奉仕個体が常時着用する拘束型制服および監視装具の統合仕様。羞恥・管理・衛生・制度可視化の4目的を兼ねる。",
+
+  "structure": {
+    "neck_unit": {
+      "name": "黒チョーカー識別具",
+      "material": "合成レザー＋NFCチップ＋音声センサー",
+      "function": [
+        "個体識別と位置追跡",
+        "音声・羞恥指数の記録",
+        "禁欲宣言時の発光インジケータ"
+      ],
+      "visual": {
+        "color": "#000000",
+        "finish": "マット",
+        "engraving": "番号刻印（例：C01）",
+        "indicator_light": "青→赤で羞恥レベル表示"
+      },
+      "symbolism": "R5従属の象徴。外すことは自己否定に等しい。"
+    },
+
+    "bodysuit": {
+      "name": "R5奉仕スーツ（ケツワレ型）",
+      "material": "肌色シリコンラバー複合繊維",
+      "features": [
+        "臀部中央開放（LUU互換構造）",
+        "防汚・抗菌コーティング",
+        "高弾性素材で筋肉の動きを可視化"
+      ],
+      "usage": [
+        "U1〜U3勤務時の標準着用",
+        "LUU破損時はR5が補修を担当"
+      ],
+      "design_notes": "観衆向けはユニフォーム、内部的には拘束具。羞恥演出の主要要素。"
+    },
+
+    "abstinence_unit": {
+      "name": "貞操帯ユニット（Abstinence Control Device）",
+      "material": "チタン合金＋樹脂カバー",
+      "function": [
+        "禁欲宣言のロック管理",
+        "課金アイテム接続ポートを兼ねる",
+        "UFS（奉仕評価）と連動して制御時間が変化"
+      ],
+      "trigger_protocol": "P5 夜間禁欲宣言処理",
+      "symbolism": "従順の可視化。快楽を管理下に置く制度的装飾。"
+    },
+
+    "anal_unit": {
+      "name": "排泄管理器具（Anal Stopper）",
+      "material": "医療用シリコン＋磁気ロック",
+      "function": [
+        "羞恥指数ログ取得",
+        "排泄タイミングを制御",
+        "Zone U0でのみ脱着許可"
+      ],
+      "notes": "身体感覚を常時制度に接続させる拘束。羞恥と管理の交点。"
+    },
+
+    "mask_unit": {
+      "name": "全頭マスク（Bull-Type Mask）",
+      "material": "マットシリコン＋光学アイレンズ",
+      "function": [
+        "顔の匿名化（奉仕者＝商品化）",
+        "儀式・罰ゲーム・U2勤務で使用"
+      ],
+      "appearance": "牛頭形状。R5ロゴ刻印。呼吸音センサー内蔵。",
+      "symbolism": "人間の顔を消すことで“奉仕体”へ転化する儀式具。"
+    },
+
+    "wrist_logger": {
+      "name": "羞恥指数タグ（Wrist Logger）",
+      "material": "導電ゴム＋LEDディスプレイ",
+      "function": [
+        "心拍・皮膚導電率測定",
+        "羞恥レベルの可視化（青→赤）",
+        "記録官端末とのリアルタイム同期"
+      ],
+      "notes": "観衆は色変化でR5の羞恥状態を把握可能。視覚的エロスの社会的翻訳。"
+    },
+
+    "boots": {
+      "name": "作業ブーツ",
+      "material": "耐油ゴム製・静音仕様",
+      "function": "清掃・搬送作業時の安全と音抑制",
+      "appearance": "無地黒。背面にR5ロゴ。",
+      "notes": "唯一“道具としての服”要素を残す実用品。"
+    },
+
+    "optional_zone_gear": {
+      "zone_U1": ["防水グローブ", "背部作業ベルト"],
+      "zone_U3": ["介助用バンド", "補助エプロン（半透明）"],
+      "zone_U4": ["拘束バインダー（短時間装着）"],
+      "zone_U5": ["排泄観測用リストバンド"]
+    }
+  },
+
+  "protocol_reference": {
+    "mandatory_wear": ["P1 降格登録", "P5 禁欲宣言", "P6 LUU補修補助"],
+    "removal_permission": [
+      "Zone U0 排泄観測室",
+      "Zone U4 奉仕時（管理官立会）"
+    ],
+    "violation_penalty": "装具破損・未装着は懲罰対象。羞恥指数リセットおよび再教育措置。"
+  },
+
+  "aesthetic_directive": {
+    "tone": "冷白照明下で半透明に輝く。人体と装具の境界を曖昧化する。",
+    "camera_focus": "喉・腰・背中のセンサーラインを低アングルから撮影。",
+    "color_palette": {
+      "skin_tone": "#E6D8C3",
+      "device_black": "#0A0A0A",
+      "status_led": ["#2F7FFF", "#FF4646"]
+    }
+  }
+}
