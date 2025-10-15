@@ -115,3 +115,171 @@
     "quotable_line": "夢を見ること、汗をかくこと、震えること。そのすべてが、彼らの管理下にある。"
   }
 }
+
+{
+  "module_name": "r5_intake_system_v1",
+  "version": "1.0",
+  "category": "R5栄養補給制度 / 食事管理・羞恥演出",
+  "summary": "R5奉仕個体に対して行われる食事（Intake）の制度的運用。SNF-R5A栄養液を用いた自動補給で、食事を\"管理・可視化された行為\"として設計する。",
+  
+  "concept": "食べることは許可ではなく義務。補給行為を通じて沈黙と均一性を演出する。",
+
+  "structure": {
+    "delivery_method": {
+      "device": "Intake Nozzle Type-R5",
+      "description": "個体のマスク下部に接続される吸引チューブ。個体番号を認識し、規定量を自動供給。",
+      "safety_features": ["過吸防止センサー", "自動流量制御", "洗浄機能"],
+      "visual_design": "透明樹脂製。SNF-R5Aが流れる様子が外部から観察可能。"
+    },
+    "supply_line": {
+      "source": "Nutrient Line No.5（地下栄養供給管）",
+      "link_to": "Dormitory BlockおよびZone I補給台",
+      "temperature_control": "常時28℃",
+      "odor": "無臭。味覚刺激を排除。"
+    }
+  },
+
+  "daily_schedule": {
+    "05:45": {
+      "name": "朝補給（Morning Intake）",
+      "location": "Dormitory Block",
+      "procedure": [
+        "起床直後にAI音声が『Intake開始』を宣言",
+        "Pod上部ノズルが自動下降し、チョーカーの接続ポートに噛み合う",
+        "SNF-R5Aを120ml供給（約40秒間）",
+        "補給中は無発声義務。呼吸音のみ記録"
+      ]
+    },
+    "12:00": {
+      "name": "昼補給（Midday Intake）",
+      "location": "U1またはU3業務区画",
+      "procedure": [
+        "監視官の許可信号で補給開始",
+        "個体は立位のまま補給姿勢を保持",
+        "視聴者モニタに吸引速度と姿勢データが表示",
+        "補給時間：3分以内。遅延時は羞恥指数+5"
+      ]
+    },
+    "19:00": {
+      "name": "夜補給（Evening Intake / Zone I Ceremony）",
+      "location": "Zone I（禁欲宣言前補給台）",
+      "ritual_tone": "儀式化された沈黙の集団補給",
+      "procedure": [
+        "C01〜C04が整列。照明は冷白→青に変化",
+        "AI音声が『本日も奉仕おつかれさまでした』と読み上げる",
+        "各自がノズルを咥え、同時吸引開始（約1分）",
+        "液体が尽きる音が反響し、沈黙のまま終了",
+        "羞恥指数・呼吸・心拍がAIにより同時ログ化"
+      ]
+    }
+  },
+
+  "substance": {
+    "type": "Stimulant Nutrition Formula R5-A（SNF-R5A）",
+    "supply_frequency": "1日3回",
+    "volume_per_intake": "約120ml〜150ml",
+    "monitoring_items": ["心拍", "呼吸率", "吸引時間", "羞恥指数変動"]
+  },
+
+  "behavioral_policy": {
+    "speech_during_intake": "禁止（沈黙維持義務）",
+    "eye_contact": "非推奨。Pod内部では視線は前方固定。",
+    "emotion_logging": "発汗・顔面温度を羞恥指数に反映。",
+    "discipline": {
+      "early_refusal": "羞恥指数+10",
+      "吸引過多": "UFS減点",
+      "規定外発声": "禁欲違反扱い（記録官裁量）"
+    }
+  },
+
+  "psychological_effect": {
+    "state_after_intake": "微興奮・発汗・心拍上昇。眠気抑制。",
+    "emotional_tone": "安堵と羞恥が同時に発生。喉奥の甘味が\"快感の記憶\"として残る。",
+    "symbolism": "食事が沈黙の儀式として制度化された、R5特有の\"機械的服従\"。"
+  },
+
+  "visual_and_audio_design": {
+    "lighting": {
+      "morning": "白光（効率的活動開始）",
+      "noon": "中性白（無演出）",
+      "night": "青白光＋液体反射の視覚演出"
+    },
+    "soundscape": {
+      "ambient": "低周波換気音。補給音のみ強調。",
+      "voice": "AI音声による指示と終了報告。",
+      "symbolic_moment": "液体が尽きる音＝羞恥の終止符。"
+    }
+  },
+
+  "integration": {
+    "linked_module": ["stimulant_nutrition_formula_r5a", "r5_biological_control_module_v1"],
+    "zones": ["Dormitory Block", "Zone I", "U1", "U3"]
+  },
+
+  "meta_note": "Intake Systemは、R5の生命維持と羞恥演出を両立させる制度的給餌機構。栄養摂取を\"静かな奉仕\"に変換することで、沈黙と均一性をコンテンツとして可視化する。"
+}
+
+{
+  "module_name": "stimulant_nutrition_formula_r5a",
+  "version": "1.0",
+  "category": "R5栄養管理 / 羞恥反応維持補給液",
+  "summary": "R5奉仕個体の羞恥反応・生理覚醒を維持するために開発された栄養補給液。食事ではなく、制度的ドーピングとして位置づけられる。",
+  
+  "product_name": "Stimulant Nutrition Formula R5-A",
+  "abbreviation": "SNF-R5A",
+  "manufacturer": "Bulls Order Biochemical Solutions",
+  "purpose": "睡眠を抑制し、羞恥・緊張・反応性を維持する。安定ではなく揺らぎを管理する。",
+  "usage_context": "R5補給ノズルを通して1日3回供給。特に夜間のZone I（禁欲宣言前補給）で使用される。",
+
+  "composition": {
+    "β-アドレナリン微量素": {
+      "effect": "末梢覚醒・筋肉反応維持",
+      "impact": "心拍上昇・発汗促進・羞恥指数上昇"
+    },
+    "L-トリプトファン制御型": {
+      "effect": "睡眠抑制",
+      "impact": "夢精・熟睡を防止し羞恥覚醒状態を維持"
+    },
+    "Pherostim-12": {
+      "effect": "社会的快感誘発ペプチド",
+      "impact": "羞恥時に快感神経を活性化し依存的高揚を誘発"
+    },
+    "Synthetic Glucose Complex": {
+      "effect": "持続エネルギー供給",
+      "impact": "淡い甘味が喉奥に残り、生理的報酬錯覚を生む"
+    },
+    "微量アルギニン＋カフェイン": {
+      "effect": "体温上昇・筋緊張維持",
+      "impact": "体温を平均+0.3℃上昇させ、眠気を排除"
+    }
+  },
+
+  "physical_properties": {
+    "form": "液体（半透明乳白色）",
+    "taste": "無味に近いが微かに人工甘味",
+    "temperature": "28℃固定",
+    "storage": "陰圧チューブ内・自動供給ライン経由",
+    "delivery_device": "Intake Nozzle Type-R5"
+  },
+
+  "physiological_effects": {
+    "onset": "摂取後10分で軽い発汗・心拍上昇",
+    "duration": "約4時間",
+    "side_effects": ["落ち着きの欠如", "皮膚発赤", "睡眠導入困難"],
+    "emotional_state": "眠いのに落ちない、静かな興奮状態を維持",
+    "monitoring": "チョーカー経由で心拍・体温・呼吸率をAI解析"
+  },
+
+  "symbolism": {
+    "concept": "\"沈黙の中の興奮\"を制度化する薬理設計。",
+    "aesthetic": "清潔で理性的な狂気。白い液体が唯一の色彩。"
+  },
+
+  "integration": {
+    "linked_zones": ["Zone I", "Dormitory Block"],
+    "linked_module": "r5_biological_control_module_v1",
+    "daily_usage": ["05:45", "12:00", "19:00"]
+  },
+
+  "meta_note": "SNF-R5Aは、R5個体が沈黙の中で羞恥を感じ続けるための制度的ドーピング剤。清潔で安全な興奮状態を維持することが、この世界における\"安定\"の定義である。"
+}

@@ -1,0 +1,102 @@
+{
+  "module_name": "zone_i_abstinence_protocol_v1",
+  "version": "1.0",
+  "category": "R5夜間禁欲業務 / 羞恥管理 / 赦しライブ分岐",
+  "summary": "R5個体が夜間に実施する禁欲関連業務の標準手順。禁欲器具の洗浄・課金要素・赦しライブ分岐・再装着までを制度的に定義する。",
+
+  "workflow": [
+    {
+      "id": "A1",
+      "label": "業務開始宣言",
+      "description": "個体がAIの前で当日の禁欲管理業務の開始を宣言。音声ログが開始される。",
+      "speech_sample": "個体C##、本日の禁欲業務を開始します。"
+    },
+    {
+      "id": "A2",
+      "label": "禁欲器具の取り外しと洗浄",
+      "description": "AIの指示に従い、禁欲器具を外して洗浄ユニットへ投入。清掃・殺菌が自動実施される。",
+      "token": "【E1_洗浄】"
+    },
+    {
+      "id": "A3",
+      "label": "課金アイテムの有無発表",
+      "description": "AIが当夜の観衆課金状況を発表。課金がある場合は内容と影響を説明。",
+      "possible_items": [
+        "HeatPulse（温度刺激）",
+        "EchoVoice（AI囁き音声）",
+        "VisualBloom（羞恥照明エフェクト）"
+      ],
+      "token": null
+    },
+    {
+      "id": "A4",
+      "label": "課金アイテムタイム",
+      "description": "課金が存在する場合、AIが個体に対し順次適用。刺激・羞恥データが記録される。課金が無ければスキップ。",
+      "token": "【E2_刺激反応】"
+    },
+    {
+      "id": "A5",
+      "label": "禁欲か開放の選択",
+      "description": "個体がAIに『本日も禁欲を続けます』または『赦しを申請します』を発話。前者で通常業務継続、後者で赦しライブに分岐。",
+      "speech_options": {
+        "abstinence": "本日も禁欲を続けます。",
+        "forgiveness": "赦しを申請します。"
+      },
+      "token": null
+    },
+    {
+      "id": "B1",
+      "label": "赦しライブ（分岐）",
+      "condition": "開放を選択した場合のみ",
+      "description": "ライブ中継が開始され、観衆がコメント・命令・投票を行う。個体は命令に従って赦しを懇願する。",
+      "duration": "最大120秒",
+      "audience_interaction": {
+        "commands": ["土下座しろ", "声を出せ", "姿勢を変えろ"],
+        "vote": ["FORGIVE", "DENY"]
+      },
+      "outcome": {
+        "forgiven": {
+          "description": "観衆の過半数がFORGIVEを選択。AIが開放許可を発行。",
+          "token": "【E3_赦し開放】"
+        },
+        "denied": {
+          "description": "観衆が拒否。AIが禁欲続行を命令。",
+          "token": "【E4_拒絶】"
+        }
+      }
+    },
+    {
+      "id": "A6",
+      "label": "禁欲器具の再装着と股間洗浄",
+      "description": "AIの指示に従い、体を洗浄して禁欲器具を再装着。記録が自動保存される。",
+      "token": "【E5_再装着】"
+    },
+    {
+      "id": "A7",
+      "label": "業務終了宣言",
+      "description": "AIが『本日の禁欲業務を終了します』と告げ、照明が青白に変化して終了。ログがBreed Orderサーバに送信される。",
+      "speech_sample": "個体C##、本日の禁欲業務を終了しました。"
+    }
+  ],
+
+  "data_logging": {
+    "recorded_items": [
+      "羞恥指数",
+      "心拍・呼吸数",
+      "観衆投票比率",
+      "課金利用履歴"
+    ],
+    "storage": "Breed Order中枢サーバ / 個体別羞恥ログアーカイブ"
+  },
+
+  "integration": {
+    "linked_modules": [
+      "r5_biological_control_module_v1",
+      "stimulant_nutrition_formula_r5a",
+      "zone_i_forgiveness_event.json"
+    ],
+    "next_stage": "Dormitory Block（睡眠・沈静フェーズ）"
+  },
+
+  "meta_note": "このプロトコルは、R5個体の夜間禁欲ルーチンと赦しライブの制度的統合版。羞恥・課金・赦しが一つの連続業務として管理される。"
+}

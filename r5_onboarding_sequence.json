@@ -1,0 +1,148 @@
+{
+  "module_name": "r5_onboarding_sequence_v1",
+  "version": "1.0",
+  "category": "R5登録儀式 / 初期教育 / 制度的再生過程",
+  "summary": "降格個体がRebirth Ceremony後に行う登録・契約・身体再構築・初期教育の統合シーケンス。R5個体を制度の器として完全に再構築する。",
+  
+  "sequence_order": [
+    "registration_event",
+    "registration_contract",
+    "r5_onboarding_tutorial"
+  ],
+
+  "registration_contract": {
+    "name": "R5奉仕供給契約（Servant Supply Contract）",
+    "duration": "1年（1シーズン）",
+    "renewal": "WOS結果に基づく自動延長または除籍",
+    "rights_and_duties": {
+      "self_determination": "放棄",
+      "biological_data": "全てBreed Orderの所有物",
+      "obedience": "沈黙・奉仕・羞恥を維持する義務"
+    },
+    "evaluation_metrics": {
+      "RPI": "Rank Performance Index（奉仕指数）",
+      "UFS": "Underground Faith Score（奉仕信頼指数）",
+      "IIS": "Inhibition Index Score（禁欲遵守指数）",
+      "SHI": "Shame Index（羞恥指数）"
+    },
+    "wos_summary": {
+      "event_name": "WOS（Worst of Slave）決定儀式",
+      "timing": "年末3日間",
+      "evaluation_items": ["羞恥耐性", "禁欲遵守率", "奉仕美", "反応純度"],
+      "audience_role": "観衆は拍手や歓声を禁じられ、沈黙で評価を入力する。",
+      "symbolism": "制度が羞恥を美徳とすることを年次的に再確認する祭典。"
+    },
+    "post_wos_outcomes": [
+      {
+        "rank": "1〜3位",
+        "status": "除籍（Freedom / Disposal）",
+        "description": "制度を離脱。ただし人格回復は保証されず、教育映像素材に再利用されることがある。"
+      },
+      {
+        "rank": "4位（最下位）",
+        "status": "継承スレイブ（R5残留）",
+        "description": "羞恥の記憶を保ったまま翌年もR5として再登録される。制度的循環の象徴。"
+      }
+    ],
+    "ceremonial_speech": [
+      "あなたの契約期間は一年間です。",
+      "奉仕・羞恥・禁欲の成果は毎週集計され、WOSにて審査されます。",
+      "最も壊れた者は再供給され、他の者は制度の素材として解放されます。",
+      "どうか沈黙の中で、美しく恥じながら生きなさい。"
+    ],
+    "meta_note": "R5契約は死刑に代わる社会的抹消制度。名と自由を奪う代わりに、羞恥によって存在を再定義させる。"
+  },
+
+  "r5_onboarding_tutorial": {
+    "name": "R5登録後チュートリアル（初期教育）",
+    "narration_tone": "冷静・母性的AI音声。教育を\"優しさの仮面\"で包む。",
+    "retraining_policy": "継承スレイブ（WOS最下位残留個体）は翌年も再登録され、羞恥感リセットのため初期チュートリアルの再受講が義務化されている。",
+    "sections": [
+      {
+        "id": "T1",
+        "name": "返却プロセス",
+        "description": "個体の人間的属性を削除し、制度上の空白を作る。",
+        "items_returned": ["氏名", "衣服", "個人データ", "発声記録"]
+      },
+      {
+        "id": "T1.5",
+        "name": "洗身・整髪・除毛プロセス（Zone S）",
+        "description": "登録直後、個体の身体を制度仕様に整える洗身・整髪・除毛工程。清潔の名目で個性を剥奪する。",
+        "steps": [
+          "旧衣服を脱衣・回収ラインへ投入",
+          "Auto-Washユニットによる全身洗浄",
+          "AI整髪機による規格短髪処理",
+          "光脱毛ユニットによる全身除毛",
+          "滅菌乾燥・皮膚確認スキャン",
+          "鏡モニターで外観確認"
+        ],
+        "ai_script": [
+          "身体表面の均一化を開始します。",
+          "あなたの髪は奉仕に不要です。",
+          "体毛を除去します。皮膚反応を維持してください。",
+          "清潔が保たれました。あなたは制度に適合しました。"
+        ],
+        "visual_tone": "白と青の照明、鏡面反射、無音の中の流水音。",
+        "psychological_effect": "完全な均質化と喪失感。自我を奪う清潔の儀式。"
+      },
+      {
+        "id": "T2",
+        "name": "付与プロセス",
+        "description": "管理装具・制服・番号札などを装着し、制度の一部となる。",
+        "equipment_given": [
+          "黒チョーカー識別具",
+          "貞操帯ユニット",
+          "排泄管理器具",
+          "奉仕着（肌色PVC）",
+          "静音ブーツ",
+          "登録番号札"
+        ]
+      },
+      {
+        "id": "T3",
+        "name": "業務説明",
+        "description": "U1〜U5、Zone I、Zone Sの基本内容を説明。羞恥を成果として認識させる。",
+        "linked_zones": ["U1","U2","U3","U4","U5","Zone I","Zone S"]
+      },
+      {
+        "id": "T4",
+        "name": "禁忌リスト説明",
+        "description": "行動制限と罰則を説明。数値コード化で抽象化された命令。",
+        "prohibitions": {
+          "P01": "無許可の発声",
+          "P02": "逃走・抵抗",
+          "P03": "器具破損",
+          "P04": "他個体との接触",
+          "P05": "自慰行為"
+        }
+      },
+      {
+        "id": "T5",
+        "name": "動作チュートリアル",
+        "description": "基本姿勢・報告・発声・沈黙の操作訓練。羞恥反応ログを生成。",
+        "training_steps": [
+          "立位報告姿勢",
+          "発声練習（番号呼称）",
+          "息による返答訓練",
+          "奉仕用具操作"
+        ]
+      },
+      {
+        "id": "T6",
+        "name": "終了宣言",
+        "description": "AI音声が登録完了を告げ、R5個体としての活動が始まる。",
+        "speech": [
+          "あなたの奉仕登録が完了しました。",
+          "あなたは本日より、Breed Orderの沈黙として機能します。"
+        ]
+      }
+    ],
+    "symbolism": "朗読で魂を奪い、洗身で身体を均質化し、チュートリアルで制度を刻み込む。R5はここで完全に\"器\"となる。",
+    "integration": {
+      "linked_module": ["registration_contract", "relegation_event_rebirth_ceremony_loop_v1"],
+      "next_stage": "r5_zone_task_definitions.json（奉仕カテゴリ配属）"
+    }
+  },
+
+  "meta_note": "R5登録シーケンスは、清潔・服従・沈黙の三段階で人間を制度の部品へと変換するための完成儀式。剃毛と洗身は\"新しい皮膚を与える処刑\"として機能し、制度の残酷さを清潔の名で覆い隠す。"
+}
