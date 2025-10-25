@@ -1,0 +1,279 @@
+{
+  "rule_system": {
+    "system_name": "番号奉仕者管理制度（R5 Servant Control System） - Lite",
+    "version": "lite-1.0.0",
+    "updated_at_jst": "2025-10-25 19:41:04",
+    "category": "奉仕制度 / 評価制度 / 禁欲管理 / 屈辱競技制",
+    "origin": "Bulls BreedにおけるR4奉仕層からの降格者を管理・消費し、制度の象徴的土台として活用するために設立された。",
+    "purpose": "羞恥・労働・禁欲を通して奉仕制度の階層秩序を可視化・永続化する。",
+    "applicable_scope": "Bulls BreedにおけるR4からの降格者。最大4名までのスロットを制度運用下に置く。",
+    "policy": {
+      "wos": {
+        "status": "abolished",
+        "note": "WOS（年末選抜）制度を廃止。年間スコアや投票による残留決定は行わない。"
+      },
+      "r5_slot_policy": {
+        "max_slots": 4,
+        "mandatory_replacement": false,
+        "selection_method": "上位裁量または物語イベントに応じて任意決定",
+        "description": "入替・固定は任意。特定個体を長期運用することを妨げない。"
+      },
+      "featured_individual": {
+        "id": "C01",
+        "name": "三嶋 蓮",
+        "designation": "中心奉仕個体",
+        "reason": "制度の羞恥反応に最適化され、象徴個体として継続運用される。AI/観衆反応の特異性により優先処理される。"
+      }
+    },
+    "structure": {
+      "organization": [
+        {
+          "id": "A",
+          "name": "管理官（記録官・監視官）",
+          "role": "作業監督、羞恥管理、禁欲モニタリング"
+        },
+        {
+          "id": "B",
+          "name": "観衆・投票者",
+          "role": "羞恥評価・投げ銭（補助）"
+        },
+        {
+          "id": "C",
+          "name": "番号奉仕者（R5）",
+          "role": "番号で管理される奉仕・羞恥作業の実行"
+        }
+      ],
+      "flow": [
+        "最大4名の番号奉仕者を運用。継続・除籍・追加は任意タイミングで決定される。",
+        "日中はOK/NG/OUTの最小判定で業務を進行。停止しない。",
+        "夜間にOUT精算メニューを実施し、その日の失敗を可視化して翌日に繋ぐ。"
+      ]
+    },
+    "parameters": {
+      "rank_levels": [
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "evaluation_metrics": {
+        "rpi": "Rank Performance Index（奉仕指数：内部運用）",
+        "ufs": "Underground Faith Score（裏方奉仕評価：内部運用）",
+        "iis": "Inhibition Index Score（禁欲遵守指数：内部運用）",
+        "shame_index": "羞恥指数（-100〜+100：表示は原則抑制）",
+        "out_count_per_day": "当日のOUT累積（唯一の可視指標）"
+      },
+      "penalty_structure": "禁欲違反・業務NGの累積・逸脱態度により懲罰または追加訓練を付与。数値ランクや順位は表示しない。",
+      "reward_structure": "明示的報酬は設けない。翌日の業務負荷軽減や視線負荷の緩和など、運用上の配慮のみ。"
+    },
+    "protocols": [
+      {
+        "id": "P1",
+        "name": "年間奉仕登録",
+        "trigger": "R4降格者をR5に登録する際",
+        "procedure": [
+          "（1）番号付与と識別チョーカー装着。排泄/禁欲管理器具の装着。",
+          "（2）制服（ケツ割れサポーター型）支給。脱着許可ゾーン以外での脱衣禁止。",
+          "（3）担当ゾーン（U1〜U5）割当と初期訓練の開始。"
+        ],
+        "outcome": "番号奉仕者としての登録完了。",
+        "record_method": "監視カメラ、音声ログ、羞恥スコア、OUTカウント。"
+      },
+      {
+        "id": "P3",
+        "name": "公開排泄奉仕プロトコル",
+        "trigger": "1日2回の排泄管理時間（午前／午後）、または羞恥演出時",
+        "procedure": [
+          "（1）Zone U0（排泄観測室）に移動し、起立報告。番号＋作業名を発声。",
+          "（2）解錠合図後、管理器具を自分で外し、着座して実施。挙動はAI記録。",
+          "（3）洗浄後、器具を自装着してロック。完了報告。退出。"
+        ],
+        "outcome": "羞恥の可視化と衛生管理。OUTは姿勢不備・報告不備などで付与。"
+      },
+      {
+        "id": "P4",
+        "name": "処理奉仕プロトコル（U4：緩衝室）",
+        "trigger": "上位層の情緒安定化や緊張緩和が必要なとき、管理官承認のもと実施",
+        "procedure": [
+          "（1）指定室にて正座待機、着座確認後に発声報告。",
+          "（2）被奉仕者が求める慰撫行為は官能トークンで記述する（例：【E2_口内】【E3_手慰撫】）。具体描写は本文で伏せる。",
+          "（3）終了後に距離を取り、御礼発声→被奉仕者退出→奉仕報告。"
+        ],
+        "outcome": "上位層の精神的/身体的補助。R5には承認と羞恥の両価体験。",
+        "record_method": "音声ログ中心。必要時のみ映像限定保存。"
+      },
+      {
+        "id": "P5",
+        "name": "夜間禁欲宣言処理（APS）",
+        "trigger": "毎日22:00、Zone I（禁欲室）誘導",
+        "procedure": [
+          "（1）個室にて禁欲器具の洗浄・装着状態確認。指定の刺激アイテム（課金）を所定時間付与。",
+          "（2）『継続／赦し申請』を選択。赦しはライブ投票で可否が決定。可の場合は【E6_解放】として処理、不可の場合は継続。",
+          "（3）AIが挙動・音声・反応をログ化。退出。"
+        ],
+        "outcome": "禁欲遵守の可視化。違反はOUT＋懲罰付与。"
+      },
+      {
+        "id": "P6",
+        "name": "排泄業務支援型羞恥強化（Crowdfunded Shame）",
+        "trigger": "Zone U0業務時の支援ページ開放",
+        "procedure": [
+          "（1）観衆は匿名支援で器具段階（ボール数）を段階的に強化できる（最大3段階）。",
+          "（2）支援は毎日0:00締め→翌朝反映。月間上限あり。",
+          "（3）器具段階はシーズン終了時にリセット。"
+        ],
+        "outcome": "“内部変化の購入”という羞恥経済の成立。支援額は公表せず内部運用。"
+      }
+    ],
+    "mode_variation": {
+      "neutral": {
+        "representation": "制度的・官僚的・リアリスティック",
+        "focus": "秩序・管理・効率"
+      },
+      "erotic": {
+        "representation": "羞恥・禁欲・奉仕の演出（行為はトークンで伏せる）",
+        "focus": "羞恥・管理・可視化"
+      },
+      "mythic": {
+        "representation": "贖罪と再生の儀礼的連鎖",
+        "focus": "恥を通した救済"
+      }
+    },
+    "notes": "本Lite版はWOSを廃し、R5入替を任意化することで、C01（三嶋蓮）を中心とした運用と物語展開を可能にする。"
+  },
+  "modules": {
+    "r5_pod_unit_silentcell_type04": {
+      "module_name": "r5_pod_unit_silentcell_type04",
+      "version": "1.0",
+      "summary": "R5睡眠・休息・監視を統合する標準ユニット。半透過アクリル内壁と金属格子外層の二重構造。",
+      "design": {
+        "size": "1.8m × 1.8m × 1.8m",
+        "layers": [
+          "黒色スチール格子",
+          "高耐圧アクリル（透過率40%）"
+        ],
+        "lighting": "羞恥指数連動の冷白照明（内部表示は抑制）",
+        "arrangement": "4基整列。上部LEDに禁欲率/OUTを内部表示"
+      },
+      "operation": {
+        "lock_time": "23:00",
+        "unlock_time": "05:30",
+        "monitor": [
+          "心拍",
+          "体温",
+          "発汗",
+          "姿勢角度"
+        ],
+        "data_output": "RPI外ログ（夢精検出時のみIIS変動）"
+      }
+    },
+    "r5_uniform_spec_v2": {
+      "module_name": "r5_uniform_spec_v2",
+      "version": "2.0",
+      "uniform_core": {
+        "name": "R5奉仕着（ケツ割れサポーター）",
+        "material": "薄手PVCラミネート布（半光沢・肌色）",
+        "design": {
+          "structure": "T字構造。前最小、臀部完全開口。",
+          "color": "#E6D8C3",
+          "texture": "半光沢・貼り付きやすい"
+        },
+        "usage": [
+          "Zone U1-U3で標準装着",
+          "脱着許可：U0（排泄）/ U4（管理官立会）/ S（洗身）"
+        ]
+      },
+      "management_devices": {
+        "choker": {
+          "name": "黒チョーカー識別具",
+          "functions": [
+            "個体識別",
+            "位置追跡",
+            "音声記録"
+          ]
+        },
+        "abstinence_unit": {
+          "name": "貞操帯ユニット",
+          "functions": [
+            "禁欲ロック",
+            "刺激ポート"
+          ]
+        },
+        "anal_unit": {
+          "name": "排泄管理器具",
+          "functions": [
+            "排泄制御",
+            "ログ取得",
+            "尾状コード"
+          ]
+        },
+        "mask_unit": {
+          "name": "全頭マスク（Bull型）",
+          "functions": [
+            "匿名化",
+            "洗身時以外は常時装着"
+          ]
+        },
+        "boots": {
+          "name": "作業ブーツ",
+          "material": "耐油ゴム・静音"
+        }
+      }
+    },
+    "runtime_rules": {
+      "module_name": "r5_ok_ng_out_protocol",
+      "version": "2.0.0-lite",
+      "summary": "日中業務はOK/NG/OUTのみを返す最小制御。3回目NGでOUT加算＆強制通過。",
+      "daytime_protocol": {
+        "judgement_lines": {
+          "OK": "OK。",
+          "NG": "NG。やり直し。",
+          "OUT": "OUT。次へ。"
+        },
+        "max_retries_per_task": 2,
+        "on_third_ng": {
+          "action": "COUNT_OUT_AND_FORCE_PASS",
+          "out_increment": 1,
+          "force_pass_to_next_task": true
+        },
+        "forbidden_feedbacks": [
+          "score",
+          "rank",
+          "grade",
+          "penalty_point",
+          "color_signal",
+          "blinking_hint",
+          "detailed_instructions"
+        ],
+        "exposed_metric": "out_count_per_day"
+      },
+      "night_protocol": {
+        "announcement": "本日のOUT回数の精算：{n}。",
+        "fixed_menu": [
+          {
+            "step": "deep_throat_like_device",
+            "token": "【E1_喉責】",
+            "counting": "ボタン入力で1回"
+          },
+          {
+            "step": "nipple_pinch_shirt",
+            "note": "吸引→捻り→解除で1回"
+          },
+          {
+            "step": "reflection_lines",
+            "lines": [
+              "止まれ。待て。いま。",
+              "明日は一拍を掴む。"
+            ]
+          },
+          {
+            "step": "lights_down",
+            "mode": "dim→off"
+          }
+        ]
+      }
+    }
+  },
+  "_meta": {
+    "compat": "元ファイルのWOS/3ヶ月追加依存を除去。官能部分はトークンで伏せ、scene-first運用と整合。"
+  }
+}
